@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TINK LABS</string>
+
+    <string name="zhihu" translatable="false">TINK LABS</string>
+    <string name="topnews" translatable="false">TINK LABS</string>
+    <string name="meizi" translatable="false">TINK LABS</string>
+
+    <string name="filter" translatable="false">打开</string>
+    <string name="about" translatable="false">关于</string>
+
+</resources>
