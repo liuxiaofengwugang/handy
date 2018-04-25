@@ -1,0 +1,111 @@
+<< /proc/bootprof >>:
+----------------------------------------
+0	    BOOT PROF (unit:msec)
+----------------------------------------
+      1797        : preloader
+      1705        : lk
+----------------------------------------
+        57.751691 : ON
+       119.543845 :    1-swapper/0       : initcall: of_init    20.464461ms
+       143.242461 :    1-swapper/0       : initcall: init_mtk_governor    15.411384ms
+       197.595615 :    1-swapper/0       : initcall: arm64_device_init    40.855615ms
+       217.435999 :    1-swapper/0       : initcall: param_sysfs_init    19.060461ms
+       241.257230 :    1-swapper/0       : initcall: pm_sysrq_init    23.757385ms
+       322.555384 :    1-swapper/0       : initcall: event_trace_init    50.437539ms
+       483.399923 :    1-swapper/0       : initcall: populate_rootfs   141.233846ms
+       567.679462 :    1-swapper/0       : probe: probe=platform_drv_probe drv=musb-hdrc(ffffffc00104a278)    16.756615ms
+       567.762923 :    1-swapper/0       : initcall: musb_init    17.433231ms
+       592.373154 :    1-swapper/0       : probe: probe=mtkfb_probe drv=mtkfb(ffffffc001078480)    20.401000ms
+       592.858616 :    1-swapper/0       : initcall: mtkfb_init    21.271539ms
+       627.066077 :    1-swapper/0       : initcall: modem_cd_init    16.088846ms
+      1521.595772 :    1-swapper/0       : probe: probe=spi_drv_probe drv=sunwave_fp(ffffffc0010c0bb0)   850.007540ms
+      1521.637464 :    1-swapper/0       : initcall: mt6797_dts_register_platform   850.192925ms
+      1571.262695 :    1-swapper/0       : probe: probe=platform_drv_probe drv=mtk-msdc(ffffffc0010c8468)    44.035923ms
+      1621.414772 :    1-swapper/0       : probe: probe=platform_drv_probe drv=mtk-msdc(ffffffc0010c8468)    50.036615ms
+      1671.286080 :    1-swapper/0       : probe: probe=platform_drv_probe drv=mtk-msdc(ffffffc0010c8468)    49.770462ms
+      1672.396926 :    1-swapper/0       : initcall: mt_msdc_init   145.434615ms
+      1722.024926 :    1-swapper/0       : probe: probe=platform_drv_probe drv=soc-audio(ffffffc0010d4c18)    16.047231ms
+      1722.106849 :    1-swapper/0       : initcall: mt_soc_snd_init    16.388846ms
+      1765.039003 :    1-swapper/0       : probe: probe=i2c_device_probe drv=stk3x1x(ffffffc001041888)    26.013769ms
+      1765.400772 :    1-swapper/0       : initcall: alsps_init    26.588000ms
+      1790.313541 :    1-swapper/0       : probe: probe=i2c_device_probe drv=MC3XXX(ffffffc001041f88)    24.632307ms
+      1790.616311 :    1-swapper/0       : initcall: acc_init    25.139231ms
+      2463.857466 :  160-kworker/u8:3    : probe: probe=i2c_device_probe drv=ft5x0x(ffffffc0010c0960)   659.487232ms
+      2466.289005 :  160-kworker/u8:3    : probe: probe=platform_drv_probe drv=mtk-tpd(ffffffc0010a8e20)   662.409463ms
+      2477.512312 :    1-swapper/0       : initcall: battery_init   673.854771ms
+      2516.208466 :    1-swapper/0       : initcall: clk_debug_init    37.809230ms
+      2518.135312 :    1-swapper/0       : Kernel_init_done
+      2847.792467 :    1-init            : INIT:early-init
+      3405.362853 :    1-init            : INIT:late-init
+      3405.470622 :    1-init            : INIT:Mount_START
+      4453.097779 :    1-init            : INIT:Mount_END
+      4455.521702 :    1-init            : start teei_daemon (on fs)
+      4457.619932 :    1-init            : start teei_daemon end (on fs)
+      5805.435089 :    1-init            : INIT:post-fs
+      6588.046707 :    1-init            : INIT:post-fs-data
+      6624.535322 :    1-init            : start teei cfg (on post-fs-data)
+      6625.304476 :    1-init            : start teei cfg end (on post-fs-data)
+      6625.439553 :    1-init            : start teei cfg end (set soter property)
+      6626.448322 :    1-init            : post-fs-data: on modem start
+      6716.165246 :    1-init            : INIT:boot
+      6851.406938 :  274-wmt_loader      : probe: probe=platform_drv_probe drv=fm(ffffffc001093a18)    54.754385ms
+      7958.155248 :  282-surfaceflinger  : BOOT_Animation:START
+     15677.419651 :    1-init            : INIT:vold.decrypt=trigger_post_fs_data
+     17476.644348 :    1-init            : INIT:post-fs-data
+     17505.693810 :    1-init            : start teei cfg (on post-fs-data)
+     17506.285733 :    1-init            : start teei cfg end (on post-fs-data)
+     17506.386964 :    1-init            : start teei cfg end (set soter property)
+     17507.288117 :    1-init            : post-fs-data: on modem start
+     17894.235272 :    1-init            : INIT:vold.decrypt=trigger_restart_framework
+     20883.164664 :  115-kworker/u8:2    : probe: probe=sdio_bus_probe drv=modem_sdio(ffffffc0010872e0)    16.763769ms
+     22417.462129 :  429-main            : Zygote:Preload Start
+     22763.319438 :  430-main            : Zygote:Preload Start
+     24891.103904 :  429-main            : Zygote:Preload 4161 classes in 2317ms
+     24981.319520 :  430-main            : Zygote:Preload 4161 classes in 2033ms
+     25318.079905 :  429-main            : Zygote:Preload 114 obtain resources in 281ms
+     25318.940905 :  430-main            : Zygote:Preload 114 obtain resources in 249ms
+     25325.687598 :  429-main            : Zygote:Preload 41 resources in 7ms
+     25326.732136 :  430-main            : Zygote:Preload 41 resources in 8ms
+     25871.803753 :  429-main            : Zygote:Preload End
+     26081.511984 :  430-main            : Zygote:Preload End
+     26164.203907 : 1260-system_server   : Android:SysServerInit_START
+     26795.194678 : 1260-system_server   : Android:PackageManagerService_Start
+     27330.060833 : 1260-system_server   : Android:PMS_scan_START
+     27396.071526 : 1260-system_server   : Android:PMS_scan_data:/system/framework
+     27443.328372 : 1260-system_server   : Android:PMS_scan_data:/vendor/framework
+     27453.499603 : 1260-system_server   : Android:PMS_scan_data:/system/priv-app
+     28275.940528 : 1260-system_server   : Android:PMS_scan_data:/system/app
+     28594.123067 : 1260-system_server   : Android:PMS_scan_data:/vendor/priv-app
+     28631.857605 : 1260-system_server   : Android:PMS_scan_data:/system/vendor/app
+     28762.364990 : 1260-system_server   : Android:PMS_scan_data:/vendor/operator/app
+     29755.728762 : 1260-system_server   : Android:PMS_scan_data:/vendor/plugin
+     29788.357762 : 1260-system_server   : Android:PMS_scan_data:/data/app
+     32185.953922 : 1260-system_server   : Android:PMS_scan_END
+     32231.552922 : 1260-system_server   : PMS:reconcileAppsDataLI
+     32673.719923 : 1260-system_server   : Android:PMS_READY
+     38539.384398 : 1260-system_server   : AMS:systemReady
+     38568.620706 : 1260-system_server   : AMS:AMS_READY
+     38674.927245 : 1260-system_server   : AP_Init:[service]:[com.android.inputmethod.latin]:[com.android.inputmethod.latin/.LatinIME]:pid:1361
+     38711.725014 : 1260-system_server   : AP_Init:[service]:[com.android.systemui:wallpaper]:[com.android.systemui/.ImageWallpaper]:pid:1369:(PersistAP)
+     38969.196938 : 1260-system_server   : AP_Init:[]:[WebViewLoader-armeabi-v7a]:pid:1406
+     38999.297246 : 1260-system_server   : AP_Init:[]:[WebViewLoader-arm64-v8a]:pid:1412
+     39023.319861 : 1260-system_server   : AP_Init:[service]:[com.android.systemui]:[com.android.systemui/.SystemUIService]:pid:1431:(PersistAP)
+     39216.193938 : 1260-system_server   : SystemServer:NetworkManagementService systemReady
+     39380.157323 : 1260-system_server   : SystemServer:NetworkStatsService systemReady
+     39961.713556 : 1260-system_server   : SystemServer:NetworkPolicyManagerService systemReady
+     40029.855017 : 1260-system_server   : SystemServer:ConnectivityService systemReady
+     40138.893787 : 1260-system_server   : SystemServer:PhaseThirdPartyAppsCanStart
+     40162.406094 : 1260-system_server   : AP_Init:[added application]:[com.android.phone]:[com.android.phone]:pid:1500:(PersistAP)
+     40177.799941 : 1260-system_server   : AP_Init:[added application]:[com.mediatek.ims]:[com.mediatek.ims]:pid:1513:(PersistAP)
+     40195.032018 : 1260-system_server   : AP_Init:[added application]:[com.mediatek.wfo.impl]:[com.mediatek.wfo.impl]:pid:1526:(PersistAP)
+     40218.765710 : 1260-system_server   : Android:SysServerInit_END
+     40235.470018 : 1411-Binder:1260_5   : AP_Init:[activity]:[com.android.settings]:[com.android.settings/.FallbackHome]:pid:1540
+     40970.959712 : 1283-android.display : AP_Launch: com.android.settings/.FallbackHome 750ms
+     40972.274327 : 1276-ActivityManager : AMS:ENABLE_SCREEN
+     41383.902405 : 1260-system_server   : AP_Init:[broadcast]:[com.mediatek.ppl]:[com.mediatek.ppl/.PplReceiver]:pid:1675
+     43783.011795 : 1283-android.display : PMS:reconcileAppsDataLI
+     44342.159489 : 1357-Binder:282_3    : BOOT_Animation:END
+     44342.196797 : OFF
+----------------------------------------
+================ END of FILE ===============
+

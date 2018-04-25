@@ -1,0 +1,2051 @@
+<< /data/misc/mblog/inter_sd_folder >>:
+APLog_2017_0920_145735/ 0
+================ END of FILE ===============
+
+<< /data/misc/mblog/mblog_config >>:
+autostart=0
+logsize=500
+totallogsize=1000
+logpath=internal_sd
+AndroidLog=1
+MD32Log=0
+ATFLog=1
+SCPLog=1
+================ END of FILE ===============
+
+<< /data/misc/mblog/mblog_history >>:
+2010:01:01 08:00:12 =====MOBILELOG START=======(291)
+2010:01:01 08:00:12 boot mode is 4(291)
+2010:01:01 08:00:12 create configure file done(291)
+2010:01:01 08:00:12 set cur path: /data/log_temp/factory/(291)
+2010:01:01 08:00:12 kernel log from /proc/kmsg(291)
+2010:01:01 08:00:15 access /sys/kernel/debug/tracing/instances/bsp/trace_pipe failed(No such file or directory)(291)
+2010:01:01 08:00:15 open tagmap done(291)
+2010:01:01 08:00:15 open /dev/scp fail(No such file or directory)(291)
+2010:01:01 08:00:15 set main_log rotate size: 4452 KB(prio:5/23)(291)
+2010:01:01 08:00:15 set crash_log rotate size: 4452 KB(prio:5/23)(291)
+2010:01:01 08:00:15 set sys_log rotate size: 2671 KB(prio:3/23)(291)
+2010:01:01 08:00:15 set radio_log rotate size: 2671 KB(prio:3/23)(291)
+2010:01:01 08:00:15 set events_log rotate size: 890 KB(prio:1/23)(291)
+2010:01:01 08:00:15 set kernel_log rotate size: 4452 KB(prio:5/23)(291)
+2010:01:01 08:00:15 set atf_log rotate size: 890 KB(prio:1/23)(291)
+2010:01:01 08:00:15 logd_sock: 17(291)
+2010:01:01 08:00:15 write thread 369(291)
+2010:01:01 08:00:15 read thread 368(291)
+2010:01:01 08:00:15 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:00:16 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:00:17 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:00:18 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:00:19 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:00:20 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:00:21 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:00:22 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:00:23 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:00:24 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:00:25 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:00:26 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:00:27 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:00:28 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:00:29 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:00:30 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:00:31 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:00:32 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:00:33 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:00:34 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:00:35 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:00:36 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:00:37 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:00:38 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:00:39 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:00:40 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:00:41 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:00:42 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:00:43 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:00:44 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:00:45 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:00:46 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:00:47 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:00:48 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:00:49 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:00:50 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:00:51 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:00:52 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:00:53 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:00:54 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:00:55 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:00:56 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:00:57 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:00:58 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:00:59 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:01:00 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:01:01 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:01:02 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:01:03 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:01:04 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:01:05 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:01:06 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:01:07 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:01:08 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:01:09 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:01:10 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:01:11 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:01:12 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:01:13 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:01:14 check '/mnt/m_external_sd/' fail(No such file or directory)(291)
+2010:01:01 08:01:15 check external sdcard timeout! stop!(291)
+2010:01:01 08:01:15 stop logging...(291)
+2010:01:01 08:01:15 flush mobilelog buffer before stopped...(291)
+2010:01:01 08:01:15 mobile_log_d.wr exit!(291)
+2010:01:01 08:01:15 mobile_log_d.rd exit!(291)
+2010:01:01 08:05:06 =====MOBILELOG START=======(384)
+2010:01:01 08:05:07 boot mode is 0(384)
+2010:01:01 08:05:07 no start logging(384)
+2017:01:01 00:03:32 =====MOBILELOG START=======(315)
+2017:01:01 00:03:33 boot mode is 1(315)
+2017:01:01 00:03:33 set cur path: /data/log_temp/meta/(315)
+2017:01:01 00:03:33 kernel log from /proc/kmsg(315)
+2017:01:01 00:03:35 access /sys/kernel/debug/tracing/instances/bsp/trace_pipe failed(No such file or directory)(315)
+2017:01:01 00:03:35 open tagmap done(315)
+2017:01:01 00:03:35 open /dev/scp fail(No such file or directory)(315)
+2017:01:01 00:03:35 set main_log rotate size: 4452 KB(prio:5/23)(315)
+2017:01:01 00:03:35 set crash_log rotate size: 4452 KB(prio:5/23)(315)
+2017:01:01 00:03:35 set sys_log rotate size: 2671 KB(prio:3/23)(315)
+2017:01:01 00:03:35 set radio_log rotate size: 2671 KB(prio:3/23)(315)
+2017:01:01 00:03:35 set events_log rotate size: 890 KB(prio:1/23)(315)
+2017:01:01 00:03:35 set kernel_log rotate size: 4452 KB(prio:5/23)(315)
+2017:01:01 00:03:35 set atf_log rotate size: 890 KB(prio:1/23)(315)
+2017:01:01 00:03:35 logd_sock: 17(315)
+2017:01:01 00:03:35 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:03:35 write thread 380(315)
+2017:01:01 00:03:35 read thread 379(315)
+2017:01:01 00:03:36 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:03:37 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:03:38 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:03:39 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:03:40 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:03:41 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:03:42 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:03:43 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:03:44 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:03:45 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:03:46 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:03:47 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:03:48 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:03:49 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:03:50 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:03:51 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:03:52 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:03:53 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:03:54 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:03:55 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:03:56 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:03:57 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:03:58 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:03:59 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:04:00 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:04:01 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:04:02 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:04:03 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:04:04 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:04:05 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:04:06 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:04:07 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:04:08 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:04:09 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:04:10 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:04:11 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:04:12 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:04:13 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:04:14 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:04:15 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:04:16 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:04:17 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:04:18 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:04:19 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:04:20 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:04:21 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:04:22 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:04:23 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:04:24 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:04:25 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:04:26 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:04:27 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:04:28 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:04:29 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:04:30 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:04:31 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:04:32 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:04:33 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:04:34 check '/mnt/m_external_sd/' fail(No such file or directory)(315)
+2017:01:01 00:04:35 check external sdcard timeout! stop!(315)
+2017:01:01 00:04:35 flush mobilelog buffer before stopped...(315)
+2017:01:01 00:04:35 mobile_log_d.wr exit!(315)
+2017:01:01 00:04:35 stop logging...(315)
+2017:01:01 00:04:35 mobile_log_d.rd exit!(315)
+2017:01:01 00:11:02 =====MOBILELOG START=======(368)
+2017:01:01 00:11:03 boot mode is 0(368)
+2017:01:01 00:11:03 no start logging(368)
+2010:01:01 08:00:18 =====MOBILELOG START=======(367)
+2010:01:01 08:00:19 boot mode is 0(367)
+2010:01:01 08:00:19 no start logging(367)
+2010:01:01 10:19:21 =====MOBILELOG START=======(367)
+2010:01:01 10:19:22 boot mode is 0(367)
+2010:01:01 10:19:22 no start logging(367)
+2010:01:01 10:31:55 =====MOBILELOG START=======(367)
+2010:01:01 10:31:55 boot mode is 0(367)
+2010:01:01 10:31:55 no start logging(367)
+2010:01:01 13:07:16 =====MOBILELOG START=======(366)
+2010:01:01 13:07:17 boot mode is 0(366)
+2010:01:01 13:07:17 no start logging(366)
+2010:01:02 05:59:50 =====MOBILELOG START=======(368)
+2010:01:02 05:59:51 boot mode is 0(368)
+2010:01:02 05:59:51 no start logging(368)
+2010:01:02 06:02:14 =====MOBILELOG START=======(368)
+2010:01:02 06:02:15 boot mode is 0(368)
+2010:01:02 06:02:15 no start logging(368)
+2010:01:02 14:27:26 =====MOBILELOG START=======(368)
+2010:01:02 14:27:27 boot mode is 0(368)
+2010:01:02 14:27:27 no start logging(368)
+2017:07:11 19:46:06 =====MOBILELOG START=======(367)
+2017:07:11 19:46:07 boot mode is 0(367)
+2017:07:11 19:46:07 no start logging(367)
+2017:07:13 17:56:19 =====MOBILELOG START=======(367)
+2017:07:13 17:56:20 boot mode is 0(367)
+2017:07:13 17:56:20 no start logging(367)
+2017:07:13 18:08:34 =====MOBILELOG START=======(329)
+2017:07:13 18:08:34 boot mode is 4(329)
+2017:07:13 18:08:34 set cur path: /data/log_temp/factory/(329)
+2017:07:13 18:08:34 kernel log from /proc/kmsg(329)
+2017:07:13 18:08:36 access /sys/kernel/debug/tracing/instances/bsp/trace_pipe failed(No such file or directory)(329)
+2017:07:13 18:08:36 open tagmap done(329)
+2017:07:13 18:08:36 open /dev/scp fail(No such file or directory)(329)
+2017:07:13 18:08:36 set main_log rotate size: 4452 KB(prio:5/23)(329)
+2017:07:13 18:08:36 set crash_log rotate size: 4452 KB(prio:5/23)(329)
+2017:07:13 18:08:36 set sys_log rotate size: 2671 KB(prio:3/23)(329)
+2017:07:13 18:08:36 set radio_log rotate size: 2671 KB(prio:3/23)(329)
+2017:07:13 18:08:36 set events_log rotate size: 890 KB(prio:1/23)(329)
+2017:07:13 18:08:36 set kernel_log rotate size: 4452 KB(prio:5/23)(329)
+2017:07:13 18:08:36 set atf_log rotate size: 890 KB(prio:1/23)(329)
+2017:07:13 18:08:37 logd_sock: 17(329)
+2017:07:13 18:08:37 write thread 399(329)
+2017:07:13 18:08:37 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:08:37 read thread 398(329)
+2017:07:13 18:08:38 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:08:39 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:08:40 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:08:41 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:08:42 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:08:43 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:08:44 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:08:45 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:08:46 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:08:47 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:08:48 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:08:49 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:08:50 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:08:51 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:08:52 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:08:53 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:08:54 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:08:55 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:08:56 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:08:57 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:08:58 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:08:59 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:09:00 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:09:01 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:09:02 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:09:03 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:09:04 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:09:05 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:09:06 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:09:07 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:09:08 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:09:09 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:09:10 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:09:11 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:09:12 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:09:13 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:09:14 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:09:15 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:09:16 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:09:17 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:09:18 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:09:19 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:09:20 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:09:21 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:09:22 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:09:23 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:09:24 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:09:25 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:09:26 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:09:27 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:09:28 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:09:29 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:09:30 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:09:31 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:09:32 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:09:33 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:09:34 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:09:35 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:09:36 check '/mnt/m_external_sd/' fail(No such file or directory)(329)
+2017:07:13 18:09:37 check external sdcard timeout! stop!(329)
+2017:07:13 18:09:37 stop logging...(329)
+2017:07:13 18:09:37 flush mobilelog buffer before stopped...(329)
+2017:07:13 18:09:37 mobile_log_d.wr exit!(329)
+2017:07:13 18:09:37 mobile_log_d.rd exit!(329)
+2017:07:13 19:12:03 =====MOBILELOG START=======(367)
+2017:07:13 19:12:04 boot mode is 0(367)
+2017:07:13 19:12:04 no start logging(367)
+2017:07:17 11:29:25 =====MOBILELOG START=======(366)
+2017:07:17 11:29:26 boot mode is 0(366)
+2017:07:17 11:29:26 no start logging(366)
+2017:07:19 09:09:24 =====MOBILELOG START=======(1828)
+2017:07:19 09:09:24 maybe not first start, and property is 0(1828)
+2017:07:19 09:09:24 boot mode is 0(1828)
+2017:07:19 09:09:24 no start logging(1828)
+2010:01:01 08:01:08 =====MOBILELOG START=======(1833)
+2010:01:01 08:01:08 maybe not first start, and property is 0(1833)
+2010:01:01 08:01:08 boot mode is 0(1833)
+2010:01:01 08:01:08 no start logging(1833)
+2010:01:01 08:00:16 =====MOBILELOG START=======(369)
+2010:01:01 08:00:17 boot mode is 0(369)
+2010:01:01 08:00:17 no start logging(369)
+2010:01:01 13:15:50 =====MOBILELOG START=======(1840)
+2010:01:01 13:15:50 maybe not first start, and property is 0(1840)
+2010:01:01 13:15:50 boot mode is 0(1840)
+2010:01:01 13:15:50 no start logging(1840)
+2017:07:19 15:02:45 =====MOBILELOG START=======(367)
+2017:07:19 15:02:46 boot mode is 0(367)
+2017:07:19 15:02:46 no start logging(367)
+2017:07:19 15:05:16 =====MOBILELOG START=======(368)
+2017:07:19 15:05:17 boot mode is 0(368)
+2017:07:19 15:05:17 no start logging(368)
+2017:07:19 15:07:47 =====MOBILELOG START=======(368)
+2017:07:19 15:07:47 boot mode is 0(368)
+2017:07:19 15:07:47 no start logging(368)
+2017:07:19 15:12:27 =====MOBILELOG START=======(367)
+2017:07:19 15:12:28 boot mode is 0(367)
+2017:07:19 15:12:28 no start logging(367)
+2017:07:19 15:16:25 =====MOBILELOG START=======(368)
+2017:07:19 15:16:26 boot mode is 0(368)
+2017:07:19 15:16:26 no start logging(368)
+2017:07:19 15:24:10 =====MOBILELOG START=======(367)
+2017:07:19 15:24:11 boot mode is 0(367)
+2017:07:19 15:24:11 no start logging(367)
+2017:07:26 09:39:23 =====MOBILELOG START=======(370)
+2017:07:26 09:39:24 boot mode is 0(370)
+2017:07:26 09:39:24 no start logging(370)
+2017:07:26 09:42:35 =====MOBILELOG START=======(368)
+2017:07:26 09:42:35 boot mode is 0(368)
+2017:07:26 09:42:35 no start logging(368)
+2017:08:10 09:06:11 =====MOBILELOG START=======(367)
+2017:08:10 09:06:12 boot mode is 0(367)
+2017:08:10 09:06:12 no start logging(367)
+2017:08:10 09:10:33 =====MOBILELOG START=======(369)
+2017:08:10 09:10:34 boot mode is 0(369)
+2017:08:10 09:10:34 no start logging(369)
+2017:08:11 09:04:07 =====MOBILELOG START=======(320)
+2017:08:11 09:04:07 boot mode is 1(320)
+2017:08:11 09:04:07 set cur path: /data/log_temp/meta/(320)
+2017:08:11 09:04:07 kernel log from /proc/kmsg(320)
+2017:08:11 09:04:09 access /sys/kernel/debug/tracing/instances/bsp/trace_pipe failed(No such file or directory)(320)
+2017:08:11 09:04:09 open tagmap done(320)
+2017:08:11 09:04:09 open /dev/scp fail(No such file or directory)(320)
+2017:08:11 09:04:09 set main_log rotate size: 4452 KB(prio:5/23)(320)
+2017:08:11 09:04:09 set crash_log rotate size: 4452 KB(prio:5/23)(320)
+2017:08:11 09:04:09 set sys_log rotate size: 2671 KB(prio:3/23)(320)
+2017:08:11 09:04:09 set radio_log rotate size: 2671 KB(prio:3/23)(320)
+2017:08:11 09:04:09 set events_log rotate size: 890 KB(prio:1/23)(320)
+2017:08:11 09:04:09 set kernel_log rotate size: 4452 KB(prio:5/23)(320)
+2017:08:11 09:04:09 set atf_log rotate size: 890 KB(prio:1/23)(320)
+2017:08:11 09:04:10 logd_sock: 17(320)
+2017:08:11 09:04:10 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:04:10 write thread 388(320)
+2017:08:11 09:04:10 read thread 387(320)
+2017:08:11 09:04:11 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:04:12 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:04:13 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:04:14 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:04:15 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:04:16 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:04:17 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:04:18 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:04:19 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:04:20 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:04:21 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:04:22 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:04:23 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:04:24 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:04:25 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:04:26 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:04:27 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:04:28 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:04:29 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:04:30 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:04:31 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:04:32 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:04:33 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:04:34 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:04:35 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:04:36 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:04:37 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:04:38 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:04:39 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:04:40 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:04:41 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:04:42 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:04:43 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:04:44 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:04:45 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:04:46 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:04:47 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:04:48 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:04:49 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:04:50 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:04:51 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:04:52 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:04:53 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:04:54 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:04:55 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:04:56 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:04:57 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:04:58 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:04:59 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:05:00 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:05:01 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:05:02 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:05:03 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:05:04 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:05:05 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:05:06 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:05:07 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:05:08 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:05:09 check '/mnt/m_external_sd/' fail(No such file or directory)(320)
+2017:08:11 09:05:10 check external sdcard timeout! stop!(320)
+2017:08:11 09:05:10 flush mobilelog buffer before stopped...(320)
+2017:08:11 09:05:10 mobile_log_d.wr exit!(320)
+2017:08:11 09:05:10 stop logging...(320)
+2017:08:11 09:05:10 mobile_log_d.rd exit!(320)
+2017:08:11 09:14:14 =====MOBILELOG START=======(369)
+2017:08:11 09:14:15 boot mode is 0(369)
+2017:08:11 09:14:15 no start logging(369)
+2017:08:11 13:51:40 =====MOBILELOG START=======(368)
+2017:08:11 13:51:41 boot mode is 0(368)
+2017:08:11 13:51:41 no start logging(368)
+2017:08:12 21:05:58 =====MOBILELOG START=======(364)
+2017:08:12 21:05:58 boot mode is 0(364)
+2017:08:12 21:05:59 no start logging(364)
+2017:08:15 08:56:51 new client(6) conected!(364)
+2017:08:15 08:57:01 recv set_storage_path,/storage/emulated/0 from 6(364)
+2017:08:15 08:57:01 thread 26792 handle msg(364)
+2017:08:15 08:57:01 recv deep_start from 6(364)
+2017:08:15 08:57:01 thread 26793 handle msg(364)
+2017:08:15 08:57:01 'deepstart' mblog(364)
+2017:08:15 08:57:01 log dir: /storage/emulated/0/mtklog/mobilelog/APLog_2017_0815_085701/(364)
+2017:08:15 08:57:01 open /data/misc/mblog/inter_sd_folder faild No such file or directory(364)
+2017:08:15 08:57:01 set cur path: /storage/emulated/0/mtklog/mobilelog/APLog_2017_0815_085701/(364)
+2017:08:15 08:57:01 create thread 26795 do copy dump(364)
+2017:08:15 08:57:01 kernel log from /proc/kmsg(364)
+2017:08:15 08:57:01 change ioprio, default:0,0(364)
+2017:08:15 08:57:01 dump /data/misc/mblog/inter_sd_folder(364)
+2017:08:15 08:57:01 dump /data/misc/mblog/mblog_config(364)
+2017:08:15 08:57:01 open /sys/kernel/debug/tracing/instances/bsp/trace_pipe fail(Permission denied)(364)
+2017:08:15 08:57:01 open tagmap done(364)
+2017:08:15 08:57:01 open /dev/scp fail(No such file or directory)(364)
+2017:08:15 08:57:01 set main_log rotate size: 22260 KB(prio:5/23)(364)
+2017:08:15 08:57:01 set crash_log rotate size: 22260 KB(prio:5/23)(364)
+2017:08:15 08:57:01 set sys_log rotate size: 13356 KB(prio:3/23)(364)
+2017:08:15 08:57:01 set radio_log rotate size: 13356 KB(prio:3/23)(364)
+2017:08:15 08:57:01 set events_log rotate size: 4452 KB(prio:1/23)(364)
+2017:08:15 08:57:01 set kernel_log rotate size: 22260 KB(prio:5/23)(364)
+2017:08:15 08:57:01 set atf_log rotate size: 4452 KB(prio:1/23)(364)
+2017:08:15 08:57:01 dump /data/misc/mblog/mblog_history(364)
+2017:08:15 08:57:01 dump /proc/bootprof(364)
+2017:08:15 08:57:02 dump /system/vendor/data/misc/ProjectConfig.mk(364)
+2017:08:15 08:57:02 dump /proc/last_kmsg(364)
+2017:08:15 08:57:02 logd_sock: 20(364)
+2017:08:15 08:57:02 write thread 26807(364)
+2017:08:15 08:57:02 read thread 26806(364)
+2017:08:15 08:57:02 init debug(364)
+2017:08:15 08:57:02 dump sys property(364)
+2017:08:15 08:57:02 copydump over(364)
+2017:08:15 08:57:02 thread 26793 comes(364)
+2017:08:15 08:57:02 thread 26793 ends(364)
+2017:08:15 08:58:17 recv deep_stop from 6(364)
+2017:08:15 08:58:17 thread 27578 handle msg(364)
+2017:08:15 08:58:17 stop logging...(364)
+2017:08:15 08:58:17 thread 27578 comes(364)
+2017:08:15 08:58:17 flush mobilelog buffer before stopped...(364)
+2017:08:15 08:58:17 deinit debug(364)
+2017:08:15 08:58:17 mobile_log_d.wr exit!(364)
+2017:08:15 08:58:17 thread 27578 ends(364)
+2017:08:15 08:58:17 mobile_log_d.rd exit!(364)
+2017:08:15 09:55:30 recv set_storage_path,/storage/emulated/0 from 6(364)
+2017:08:15 09:55:30 thread 28858 handle msg(364)
+2017:08:15 09:55:30 recv deep_start from 6(364)
+2017:08:15 09:55:30 thread 28859 handle msg(364)
+2017:08:15 09:55:30 'deepstart' mblog(364)
+2017:08:15 09:55:31 log dir: /storage/emulated/0/mtklog/mobilelog/APLog_2017_0815_095530/(364)
+2017:08:15 09:55:31 APLog_2017_0815_085701/ not in sd anymore(364)
+2017:08:15 09:55:31 delete APLog_2017_0815_085701/ (no exist)(364)
+2017:08:15 09:55:31 set cur path: /storage/emulated/0/mtklog/mobilelog/APLog_2017_0815_095530/(364)
+2017:08:15 09:55:31 create thread 28861 do copy dump(364)
+2017:08:15 09:55:31 change ioprio, default:0,0(364)
+2017:08:15 09:55:31 kernel log from /proc/kmsg(364)
+2017:08:15 09:55:31 open /sys/kernel/debug/tracing/instances/bsp/trace_pipe fail(Permission denied)(364)
+2017:08:15 09:55:31 open /dev/scp fail(No such file or directory)(364)
+2017:08:15 09:55:31 set main_log rotate size: 22260 KB(prio:5/23)(364)
+2017:08:15 09:55:31 set crash_log rotate size: 22260 KB(prio:5/23)(364)
+2017:08:15 09:55:31 set sys_log rotate size: 13356 KB(prio:3/23)(364)
+2017:08:15 09:55:31 set radio_log rotate size: 13356 KB(prio:3/23)(364)
+2017:08:15 09:55:31 set events_log rotate size: 4452 KB(prio:1/23)(364)
+2017:08:15 09:55:31 set kernel_log rotate size: 22260 KB(prio:5/23)(364)
+2017:08:15 09:55:31 set atf_log rotate size: 4452 KB(prio:1/23)(364)
+2017:08:15 09:55:31 dump /data/misc/mblog/inter_sd_folder(364)
+2017:08:15 09:55:31 dump /data/misc/mblog/mblog_config(364)
+2017:08:15 09:55:31 dump /data/misc/mblog/mblog_history(364)
+2017:08:15 09:55:31 dump /proc/bootprof(364)
+2017:08:15 09:55:31 dump /system/vendor/data/misc/ProjectConfig.mk(364)
+2017:08:15 09:55:31 logd_sock: 18(364)
+2017:08:15 09:55:31 read thread 28872(364)
+2017:08:15 09:55:31 write thread 28873(364)
+2017:08:15 09:55:31 init debug(364)
+2017:08:15 09:55:31 dump /proc/last_kmsg(364)
+2017:08:15 09:55:31 thread 28859 comes(364)
+2017:08:15 09:55:31 thread 28859 ends(364)
+2017:08:15 09:55:32 dump sys property(364)
+2017:08:15 09:55:32 copydump over(364)
+2017:08:15 09:56:07 recv deep_stop from 6(364)
+2017:08:15 09:56:07 thread 28965 handle msg(364)
+2017:08:15 09:56:07 stop logging...(364)
+2017:08:15 09:56:07 flush mobilelog buffer before stopped...(364)
+2017:08:15 09:56:07 thread 28965 comes(364)
+2017:08:15 09:56:07 deinit debug(364)
+2017:08:15 09:56:07 mobile_log_d.wr exit!(364)
+2017:08:15 09:56:07 thread 28965 ends(364)
+2017:08:15 09:56:07 mobile_log_d.rd exit!(364)
+2017:08:15 10:35:43 recv returned 0 from client 6(No such file or directory)(364)
+2017:08:15 10:35:43 close client 6(364)
+2017:08:15 10:35:44 new client(6) conected!(364)
+2017:08:15 17:58:44 recv set_storage_path,/storage/emulated/0 from 6(364)
+2017:08:15 17:58:44 thread 745 handle msg(364)
+2017:08:15 17:58:44 recv deep_start from 6(364)
+2017:08:15 17:58:44 thread 746 handle msg(364)
+2017:08:15 17:58:44 'deepstart' mblog(364)
+2017:08:15 17:58:44 log dir: /storage/emulated/0/mtklog/mobilelog/APLog_2017_0815_175844/(364)
+2017:08:15 17:58:44 APLog_2017_0815_095530/ not in sd anymore(364)
+2017:08:15 17:58:44 delete APLog_2017_0815_095530/ (no exist)(364)
+2017:08:15 17:58:44 set cur path: /storage/emulated/0/mtklog/mobilelog/APLog_2017_0815_175844/(364)
+2017:08:15 17:58:44 create thread 748 do copy dump(364)
+2017:08:15 17:58:44 kernel log from /proc/kmsg(364)
+2017:08:15 17:58:44 open /sys/kernel/debug/tracing/instances/bsp/trace_pipe fail(Permission denied)(364)
+2017:08:15 17:58:44 change ioprio, default:0,0(364)
+2017:08:15 17:58:44 open /dev/scp fail(No such file or directory)(364)
+2017:08:15 17:58:44 set main_log rotate size: 22260 KB(prio:5/23)(364)
+2017:08:15 17:58:44 set crash_log rotate size: 22260 KB(prio:5/23)(364)
+2017:08:15 17:58:44 set sys_log rotate size: 13356 KB(prio:3/23)(364)
+2017:08:15 17:58:44 set radio_log rotate size: 13356 KB(prio:3/23)(364)
+2017:08:15 17:58:44 set events_log rotate size: 4452 KB(prio:1/23)(364)
+2017:08:15 17:58:44 set kernel_log rotate size: 22260 KB(prio:5/23)(364)
+2017:08:15 17:58:44 set atf_log rotate size: 4452 KB(prio:1/23)(364)
+2017:08:15 17:58:45 dump /data/misc/mblog/inter_sd_folder(364)
+2017:08:15 17:58:45 dump /data/misc/mblog/mblog_config(364)
+2017:08:15 17:58:45 dump /data/misc/mblog/mblog_history(364)
+2017:08:15 17:58:45 dump /proc/bootprof(364)
+2017:08:15 17:58:45 dump /system/vendor/data/misc/ProjectConfig.mk(364)
+2017:08:15 17:58:45 logd_sock: 18(364)
+2017:08:15 17:58:45 read thread 754(364)
+2017:08:15 17:58:45 write thread 755(364)
+2017:08:15 17:58:45 init debug(364)
+2017:08:15 17:58:45 dump /proc/last_kmsg(364)
+2017:08:15 17:58:45 thread 746 comes(364)
+2017:08:15 17:58:45 thread 746 ends(364)
+2017:08:15 17:58:45 dump sys property(364)
+2017:08:15 17:58:45 copydump over(364)
+2017:08:15 17:59:58 TIME_interval: 0 seconds, 205577005 ns, logsize: 10683915(364)
+2017:08:15 18:01:10 recv deep_stop from 6(364)
+2017:08:15 18:01:10 thread 1041 handle msg(364)
+2017:08:15 18:01:10 thread 1041 comes(364)
+2017:08:15 18:01:10 stop logging...(364)
+2017:08:15 18:01:10 flush mobilelog buffer before stopped...(364)
+2017:08:15 18:01:10 deinit debug(364)
+2017:08:15 18:01:10 mobile_log_d.wr exit!(364)
+2017:08:15 18:01:10 thread 1041 ends(364)
+2017:08:15 18:01:10 mobile_log_d.rd exit!(364)
+2017:08:15 23:43:31 =====MOBILELOG START=======(364)
+2017:08:15 23:43:31 boot mode is 0(364)
+2017:08:15 23:43:31 no start logging(364)
+2017:08:16 16:27:43 =====MOBILELOG START=======(363)
+2017:08:16 16:27:43 boot mode is 0(363)
+2017:08:16 16:27:43 no start logging(363)
+2017:08:16 16:29:26 =====MOBILELOG START=======(365)
+2017:08:16 16:29:26 boot mode is 0(365)
+2017:08:16 16:29:27 no start logging(365)
+2017:08:17 08:56:05 =====MOBILELOG START=======(364)
+2017:08:17 08:56:05 boot mode is 0(364)
+2017:08:17 08:56:05 no start logging(364)
+2017:08:17 09:00:30 new client(6) conected!(364)
+2017:08:17 09:00:58 recv set_storage_path,/storage/emulated/0 from 6(364)
+2017:08:17 09:00:58 thread 4591 handle msg(364)
+2017:08:17 09:00:58 recv deep_start from 6(364)
+2017:08:17 09:00:58 thread 4592 handle msg(364)
+2017:08:17 09:00:58 'deepstart' mblog(364)
+2017:08:17 09:00:58 log dir: /storage/emulated/0/mtklog/mobilelog/APLog_2017_0817_090058/(364)
+2017:08:17 09:00:58 APLog_2017_0815_175844/ not in sd anymore(364)
+2017:08:17 09:00:58 delete APLog_2017_0815_175844/ (no exist)(364)
+2017:08:17 09:00:58 set cur path: /storage/emulated/0/mtklog/mobilelog/APLog_2017_0817_090058/(364)
+2017:08:17 09:00:58 create thread 4594 do copy dump(364)
+2017:08:17 09:00:58 change ioprio, default:0,0(364)
+2017:08:17 09:00:58 kernel log from /proc/kmsg(364)
+2017:08:17 09:00:58 dump /data/misc/mblog/inter_sd_folder(364)
+2017:08:17 09:00:58 dump /data/misc/mblog/mblog_config(364)
+2017:08:17 09:00:58 open /sys/kernel/debug/tracing/instances/bsp/trace_pipe fail(Permission denied)(364)
+2017:08:17 09:00:58 open tagmap done(364)
+2017:08:17 09:00:58 open /dev/scp fail(No such file or directory)(364)
+2017:08:17 09:00:58 set main_log rotate size: 22260 KB(prio:5/23)(364)
+2017:08:17 09:00:58 set crash_log rotate size: 22260 KB(prio:5/23)(364)
+2017:08:17 09:00:58 set sys_log rotate size: 13356 KB(prio:3/23)(364)
+2017:08:17 09:00:58 set radio_log rotate size: 13356 KB(prio:3/23)(364)
+2017:08:17 09:00:58 set events_log rotate size: 4452 KB(prio:1/23)(364)
+2017:08:17 09:00:58 set kernel_log rotate size: 22260 KB(prio:5/23)(364)
+2017:08:17 09:00:58 set atf_log rotate size: 4452 KB(prio:1/23)(364)
+2017:08:17 09:00:58 dump /data/misc/mblog/mblog_history(364)
+2017:08:17 09:00:58 dump /proc/bootprof(364)
+2017:08:17 09:00:59 dump /system/vendor/data/misc/ProjectConfig.mk(364)
+2017:08:17 09:00:59 dump /proc/last_kmsg(364)
+2017:08:17 09:00:59 logd_sock: 19(364)
+2017:08:17 09:00:59 init debug(364)
+2017:08:17 09:00:59 write thread 4607(364)
+2017:08:17 09:00:59 read thread 4606(364)
+2017:08:17 09:00:59 dump sys property(364)
+2017:08:17 09:00:59 copydump over(364)
+2017:08:17 09:00:59 thread 4592 comes(364)
+2017:08:17 09:00:59 thread 4592 ends(364)
+2017:08:17 09:01:20 =====MOBILELOG START=======(4713)
+2017:08:17 09:01:20 maybe not first start, and property is 1(4713)
+2017:08:17 09:01:20 boot mode is 0(4713)
+2017:08:17 09:01:20 set cur path: /data/log_temp/boot/(4713)
+2017:08:17 09:01:20 kernel log from /proc/kmsg(4713)
+2017:08:17 09:01:20 open /sys/kernel/debug/tracing/instances/bsp/trace_pipe fail(Permission denied)(4713)
+2017:08:17 09:01:20 open tagmap done(4713)
+2017:08:17 09:01:20 open /dev/scp fail(No such file or directory)(4713)
+2017:08:17 09:01:20 set main_log rotate size: 4452 KB(prio:5/23)(4713)
+2017:08:17 09:01:20 set crash_log rotate size: 4452 KB(prio:5/23)(4713)
+2017:08:17 09:01:20 set sys_log rotate size: 2671 KB(prio:3/23)(4713)
+2017:08:17 09:01:20 set radio_log rotate size: 2671 KB(prio:3/23)(4713)
+2017:08:17 09:01:20 set events_log rotate size: 890 KB(prio:1/23)(4713)
+2017:08:17 09:01:20 set kernel_log rotate size: 4452 KB(prio:5/23)(4713)
+2017:08:17 09:01:20 set atf_log rotate size: 890 KB(prio:1/23)(4713)
+2017:08:17 09:01:20 logd_sock: 17(4713)
+2017:08:17 09:01:20 read thread 4718(4713)
+2017:08:17 09:01:20 init debug(4713)
+2017:08:17 09:01:20 write thread 4719(4713)
+2017:08:17 09:01:43 =====MOBILELOG START=======(366)
+2017:08:17 09:01:44 boot mode is 0(366)
+2017:08:17 09:01:44 set cur path: /data/log_temp/boot/(366)
+2017:08:17 09:01:44 kernel log from /proc/kmsg(366)
+2017:08:17 09:01:44 open /sys/kernel/debug/tracing/instances/bsp/trace_pipe fail(Permission denied)(366)
+2017:08:17 09:01:44 open tagmap done(366)
+2017:08:17 09:01:44 open /dev/scp fail(No such file or directory)(366)
+2017:08:17 09:01:44 set main_log rotate size: 4452 KB(prio:5/23)(366)
+2017:08:17 09:01:44 set crash_log rotate size: 4452 KB(prio:5/23)(366)
+2017:08:17 09:01:44 set sys_log rotate size: 2671 KB(prio:3/23)(366)
+2017:08:17 09:01:44 set radio_log rotate size: 2671 KB(prio:3/23)(366)
+2017:08:17 09:01:44 set events_log rotate size: 890 KB(prio:1/23)(366)
+2017:08:17 09:01:44 set kernel_log rotate size: 4452 KB(prio:5/23)(366)
+2017:08:17 09:01:44 set atf_log rotate size: 890 KB(prio:1/23)(366)
+2017:08:17 09:01:45 logd_sock: 17(366)
+2017:08:17 09:01:45 init debug(366)
+2017:08:17 09:01:45 write thread 671(366)
+2017:08:17 09:01:45 read thread 670(366)
+2017:08:17 09:02:20 new client(18) conected!(366)
+2017:08:17 09:02:21 recv set_storage_path,/storage/emulated/0 from 18(366)
+2017:08:17 09:02:21 thread 2911 handle msg(366)
+2017:08:17 09:02:21 recv copy from 18(366)
+2017:08:17 09:02:21 thread 2912 handle msg(366)
+2017:08:17 09:02:21 log dir: /storage/emulated/0/mtklog/mobilelog/APLog_2017_0817_090221/(366)
+2017:08:17 09:02:21 APLog_2017_0817_090058/ not in sd anymore(366)
+2017:08:17 09:02:21 delete APLog_2017_0817_090058/ (no exist)(366)
+2017:08:17 09:02:21 set cur path: /storage/emulated/0/mtklog/mobilelog/APLog_2017_0817_090221/(366)
+2017:08:17 09:02:21 create thread 2919 do copy dump(366)
+2017:08:17 09:02:21 change ioprio, default:0,0(366)
+2017:08:17 09:02:21 set main_log rotate size: 22260 KB(prio:5/23)(366)
+2017:08:17 09:02:21 set crash_log rotate size: 22260 KB(prio:5/23)(366)
+2017:08:17 09:02:21 set sys_log rotate size: 13356 KB(prio:3/23)(366)
+2017:08:17 09:02:21 set radio_log rotate size: 13356 KB(prio:3/23)(366)
+2017:08:17 09:02:21 set events_log rotate size: 4452 KB(prio:1/23)(366)
+2017:08:17 09:02:21 set kernel_log rotate size: 22260 KB(prio:5/23)(366)
+2017:08:17 09:02:21 set atf_log rotate size: 4452 KB(prio:1/23)(366)
+2017:08:17 09:02:22 copy /data/log_temp/boot/ done(366)
+2017:08:17 09:02:22 dump /data/misc/mblog/inter_sd_folder(366)
+2017:08:17 09:02:22 dump /data/misc/mblog/mblog_config(366)
+2017:08:17 09:02:22 dump /data/misc/mblog/mblog_history(366)
+2017:08:17 09:02:22 dump /proc/bootprof(366)
+2017:08:17 09:02:22 dump /system/vendor/data/misc/ProjectConfig.mk(366)
+2017:08:17 09:02:23 dump /proc/last_kmsg(366)
+2017:08:17 09:02:23 dump sys property(366)
+2017:08:17 09:02:23 copydump over(366)
+2017:08:17 09:02:52 recv deep_stop from 18(366)
+2017:08:17 09:02:52 thread 3521 handle msg(366)
+2017:08:17 09:02:52 thread 3521 comes(366)
+2017:08:17 09:02:52 stop logging...(366)
+2017:08:17 09:02:52 deinit debug(366)
+2017:08:17 09:02:52 flush mobilelog buffer before stopped...(366)
+2017:08:17 09:02:52 mobile_log_d.wr exit!(366)
+2017:08:17 09:02:52 thread 3521 ends(366)
+2017:08:17 09:02:52 mobile_log_d.rd exit!(366)
+2017:08:17 10:06:00 recv set_storage_path,/storage/emulated/0 from 18(366)
+2017:08:17 10:06:00 thread 4435 handle msg(366)
+2017:08:17 10:06:01 recv deep_start from 18(366)
+2017:08:17 10:06:01 thread 4436 handle msg(366)
+2017:08:17 10:06:01 'deepstart' mblog(366)
+2017:08:17 10:06:01 log dir: /storage/emulated/0/mtklog/mobilelog/APLog_2017_0817_100601/(366)
+2017:08:17 10:06:01 APLog_2017_0817_090221/ not in sd anymore(366)
+2017:08:17 10:06:01 delete APLog_2017_0817_090221/ (no exist)(366)
+2017:08:17 10:06:01 set cur path: /storage/emulated/0/mtklog/mobilelog/APLog_2017_0817_100601/(366)
+2017:08:17 10:06:01 create thread 4438 do copy dump(366)
+2017:08:17 10:06:01 kernel log from /proc/kmsg(366)
+2017:08:17 10:06:01 change ioprio, default:0,0(366)
+2017:08:17 10:06:01 open /sys/kernel/debug/tracing/instances/bsp/trace_pipe fail(Permission denied)(366)
+2017:08:17 10:06:01 open /dev/scp fail(No such file or directory)(366)
+2017:08:17 10:06:01 set main_log rotate size: 22260 KB(prio:5/23)(366)
+2017:08:17 10:06:01 set crash_log rotate size: 22260 KB(prio:5/23)(366)
+2017:08:17 10:06:01 set sys_log rotate size: 13356 KB(prio:3/23)(366)
+2017:08:17 10:06:01 set radio_log rotate size: 13356 KB(prio:3/23)(366)
+2017:08:17 10:06:01 set events_log rotate size: 4452 KB(prio:1/23)(366)
+2017:08:17 10:06:01 set kernel_log rotate size: 22260 KB(prio:5/23)(366)
+2017:08:17 10:06:01 set atf_log rotate size: 4452 KB(prio:1/23)(366)
+2017:08:17 10:06:01 dump /data/misc/mblog/inter_sd_folder(366)
+2017:08:17 10:06:01 dump /data/misc/mblog/mblog_config(366)
+2017:08:17 10:06:01 dump /data/misc/mblog/mblog_history(366)
+2017:08:17 10:06:01 dump /proc/bootprof(366)
+2017:08:17 10:06:01 dump /system/vendor/data/misc/ProjectConfig.mk(366)
+2017:08:17 10:06:01 logd_sock: 17(366)
+2017:08:17 10:06:01 write thread 4452(366)
+2017:08:17 10:06:01 init debug(366)
+2017:08:17 10:06:01 read thread 4451(366)
+2017:08:17 10:06:01 dump /proc/last_kmsg(366)
+2017:08:17 10:06:01 thread 4436 comes(366)
+2017:08:17 10:06:01 thread 4436 ends(366)
+2017:08:17 10:06:01 dump sys property(366)
+2017:08:17 10:06:01 copydump over(366)
+2017:08:17 10:06:34 recv deep_stop from 18(366)
+2017:08:17 10:06:34 thread 5012 handle msg(366)
+2017:08:17 10:06:34 thread 5012 comes(366)
+2017:08:17 10:06:34 stop logging...(366)
+2017:08:17 10:06:34 flush mobilelog buffer before stopped...(366)
+2017:08:17 10:06:34 deinit debug(366)
+2017:08:17 10:06:34 mobile_log_d.wr exit!(366)
+2017:08:17 10:06:34 thread 5012 ends(366)
+2017:08:17 10:06:34 mobile_log_d.rd exit!(366)
+2017:08:17 10:20:12 recv set_storage_path,/storage/emulated/0 from 18(366)
+2017:08:17 10:20:12 thread 5460 handle msg(366)
+2017:08:17 10:20:12 recv deep_start from 18(366)
+2017:08:17 10:20:12 thread 5462 handle msg(366)
+2017:08:17 10:20:12 'deepstart' mblog(366)
+2017:08:17 10:20:12 log dir: /storage/emulated/0/mtklog/mobilelog/APLog_2017_0817_102012/(366)
+2017:08:17 10:20:12 APLog_2017_0817_100601/ not in sd anymore(366)
+2017:08:17 10:20:12 delete APLog_2017_0817_100601/ (no exist)(366)
+2017:08:17 10:20:12 set cur path: /storage/emulated/0/mtklog/mobilelog/APLog_2017_0817_102012/(366)
+2017:08:17 10:20:12 create thread 5466 do copy dump(366)
+2017:08:17 10:20:12 kernel log from /proc/kmsg(366)
+2017:08:17 10:20:12 open /sys/kernel/debug/tracing/instances/bsp/trace_pipe fail(Permission denied)(366)
+2017:08:17 10:20:12 change ioprio, default:0,0(366)
+2017:08:17 10:20:12 open /dev/scp fail(No such file or directory)(366)
+2017:08:17 10:20:12 set main_log rotate size: 22260 KB(prio:5/23)(366)
+2017:08:17 10:20:12 set crash_log rotate size: 22260 KB(prio:5/23)(366)
+2017:08:17 10:20:12 set sys_log rotate size: 13356 KB(prio:3/23)(366)
+2017:08:17 10:20:12 set radio_log rotate size: 13356 KB(prio:3/23)(366)
+2017:08:17 10:20:12 set events_log rotate size: 4452 KB(prio:1/23)(366)
+2017:08:17 10:20:12 set kernel_log rotate size: 22260 KB(prio:5/23)(366)
+2017:08:17 10:20:12 set atf_log rotate size: 4452 KB(prio:1/23)(366)
+2017:08:17 10:20:12 dump /data/misc/mblog/inter_sd_folder(366)
+2017:08:17 10:20:12 dump /data/misc/mblog/mblog_config(366)
+2017:08:17 10:20:13 dump /data/misc/mblog/mblog_history(366)
+2017:08:17 10:20:13 dump /proc/bootprof(366)
+2017:08:17 10:20:13 dump /system/vendor/data/misc/ProjectConfig.mk(366)
+2017:08:17 10:20:13 logd_sock: 17(366)
+2017:08:17 10:20:13 read thread 5476(366)
+2017:08:17 10:20:13 write thread 5477(366)
+2017:08:17 10:20:13 init debug(366)
+2017:08:17 10:20:13 dump /proc/last_kmsg(366)
+2017:08:17 10:20:13 thread 5462 comes(366)
+2017:08:17 10:20:13 thread 5462 ends(366)
+2017:08:17 10:20:13 dump sys property(366)
+2017:08:17 10:20:13 copydump over(366)
+2017:08:17 10:20:13 TIME_interval: 0 seconds, 132386844 ns, logsize: 10572959(366)
+2017:08:17 10:20:50 recv deep_stop from 18(366)
+2017:08:17 10:20:50 thread 5918 handle msg(366)
+2017:08:17 10:20:50 thread 5918 comes(366)
+2017:08:17 10:20:50 stop logging...(366)
+2017:08:17 10:20:50 deinit debug(366)
+2017:08:17 10:20:50 flush mobilelog buffer before stopped...(366)
+2017:08:17 10:20:50 mobile_log_d.wr exit!(366)
+2017:08:17 10:20:50 thread 5918 ends(366)
+2017:08:17 10:20:50 mobile_log_d.rd exit!(366)
+2017:08:17 15:25:07 recv returned 0 from client 18(No such file or directory)(366)
+2017:08:17 15:25:07 close client 18(366)
+2017:08:17 15:25:08 new client(6) conected!(366)
+2017:08:19 14:20:14 =====MOBILELOG START=======(364)
+2017:08:19 14:20:14 boot mode is 0(364)
+2017:08:19 14:20:14 no start logging(364)
+2017:08:22 07:18:38 =====MOBILELOG START=======(364)
+2017:08:22 07:18:38 boot mode is 0(364)
+2017:08:22 07:18:38 no start logging(364)
+2017:08:24 10:54:25 =====MOBILELOG START=======(319)
+2017:08:24 10:54:25 boot mode is 1(319)
+2017:08:24 10:54:25 set cur path: /data/log_temp/meta/(319)
+2017:08:24 10:54:25 kernel log from /proc/kmsg(319)
+2017:08:24 10:54:27 access /sys/kernel/debug/tracing/instances/bsp/trace_pipe failed(No such file or directory)(319)
+2017:08:24 10:54:27 open tagmap done(319)
+2017:08:24 10:54:28 open /dev/scp fail(No such file or directory)(319)
+2017:08:24 10:54:28 set main_log rotate size: 4452 KB(prio:5/23)(319)
+2017:08:24 10:54:28 set crash_log rotate size: 4452 KB(prio:5/23)(319)
+2017:08:24 10:54:28 set sys_log rotate size: 2671 KB(prio:3/23)(319)
+2017:08:24 10:54:28 set radio_log rotate size: 2671 KB(prio:3/23)(319)
+2017:08:24 10:54:28 set events_log rotate size: 890 KB(prio:1/23)(319)
+2017:08:24 10:54:28 set kernel_log rotate size: 4452 KB(prio:5/23)(319)
+2017:08:24 10:54:28 set atf_log rotate size: 890 KB(prio:1/23)(319)
+2017:08:24 10:54:28 logd_sock: 17(319)
+2017:08:24 10:54:28 read thread 387(319)
+2017:08:24 10:54:28 write thread 388(319)
+2017:08:24 10:54:28 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:54:29 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:54:30 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:54:31 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:54:32 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:54:33 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:54:34 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:54:35 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:54:36 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:54:37 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:54:38 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:54:39 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:54:40 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:54:41 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:54:42 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:54:43 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:54:44 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:54:45 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:54:46 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:54:47 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:54:48 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:54:49 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:54:50 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:54:51 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:54:52 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:54:53 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:54:54 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:54:55 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:54:56 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:54:57 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:54:58 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:54:59 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:55:00 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:55:01 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:55:02 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:55:03 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:55:04 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:55:05 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:55:06 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:55:07 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:55:08 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:55:09 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:55:10 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:55:11 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:55:12 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:55:13 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:55:14 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:55:15 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:55:16 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:55:17 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:55:18 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:55:19 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:55:20 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:55:21 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:55:22 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:55:23 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:55:24 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:55:25 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:55:26 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:55:27 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:24 10:55:28 check external sdcard timeout! stop!(319)
+2017:08:24 10:55:28 stop logging...(319)
+2017:08:24 10:55:28 flush mobilelog buffer before stopped...(319)
+2017:08:24 10:55:28 mobile_log_d.wr exit!(319)
+2017:08:24 10:55:28 mobile_log_d.rd exit!(319)
+2017:08:24 10:59:34 =====MOBILELOG START=======(364)
+2017:08:24 10:59:35 boot mode is 0(364)
+2017:08:24 10:59:35 no start logging(364)
+2017:08:25 12:43:02 new client(6) conected!(364)
+2017:08:25 12:43:23 recv set_storage_path,/storage/emulated/0 from 6(364)
+2017:08:25 12:43:23 thread 12841 handle msg(364)
+2017:08:25 12:43:23 recv deep_start from 6(364)
+2017:08:25 12:43:23 thread 12842 handle msg(364)
+2017:08:25 12:43:23 'deepstart' mblog(364)
+2017:08:25 12:43:23 log dir: /storage/emulated/0/mtklog/mobilelog/APLog_2017_0825_124323/(364)
+2017:08:25 12:43:23 APLog_2017_0817_102012/ not in sd anymore(364)
+2017:08:25 12:43:23 delete APLog_2017_0817_102012/ (no exist)(364)
+2017:08:25 12:43:23 set cur path: /storage/emulated/0/mtklog/mobilelog/APLog_2017_0825_124323/(364)
+2017:08:25 12:43:23 create thread 12844 do copy dump(364)
+2017:08:25 12:43:23 change ioprio, default:0,0(364)
+2017:08:25 12:43:23 kernel log from /proc/kmsg(364)
+2017:08:25 12:43:23 dump /data/misc/mblog/inter_sd_folder(364)
+2017:08:25 12:43:23 open /sys/kernel/debug/tracing/instances/bsp/trace_pipe fail(Permission denied)(364)
+2017:08:25 12:43:23 open tagmap done(364)
+2017:08:25 12:43:23 dump /data/misc/mblog/mblog_config(364)
+2017:08:25 12:43:23 open /dev/scp fail(No such file or directory)(364)
+2017:08:25 12:43:23 set main_log rotate size: 22260 KB(prio:5/23)(364)
+2017:08:25 12:43:23 set crash_log rotate size: 22260 KB(prio:5/23)(364)
+2017:08:25 12:43:23 set sys_log rotate size: 13356 KB(prio:3/23)(364)
+2017:08:25 12:43:23 set radio_log rotate size: 13356 KB(prio:3/23)(364)
+2017:08:25 12:43:23 set events_log rotate size: 4452 KB(prio:1/23)(364)
+2017:08:25 12:43:23 set kernel_log rotate size: 22260 KB(prio:5/23)(364)
+2017:08:25 12:43:23 set atf_log rotate size: 4452 KB(prio:1/23)(364)
+2017:08:25 12:43:24 dump /data/misc/mblog/mblog_history(364)
+2017:08:25 12:43:24 dump /proc/bootprof(364)
+2017:08:25 12:43:24 dump /system/vendor/data/misc/ProjectConfig.mk(364)
+2017:08:25 12:43:24 dump /proc/last_kmsg(364)
+2017:08:25 12:43:24 logd_sock: 19(364)
+2017:08:25 12:43:24 write thread 12860(364)
+2017:08:25 12:43:24 read thread 12859(364)
+2017:08:25 12:43:24 init debug(364)
+2017:08:25 12:43:24 dump sys property(364)
+2017:08:25 12:43:24 copydump over(364)
+2017:08:25 12:43:24 thread 12842 comes(364)
+2017:08:25 12:43:24 thread 12842 ends(364)
+2017:08:25 12:43:49 recv deep_stop from 6(364)
+2017:08:25 12:43:49 thread 13300 handle msg(364)
+2017:08:25 12:43:49 thread 13300 comes(364)
+2017:08:25 12:43:49 stop logging...(364)
+2017:08:25 12:43:49 flush mobilelog buffer before stopped...(364)
+2017:08:25 12:43:49 deinit debug(364)
+2017:08:25 12:43:49 mobile_log_d.wr exit!(364)
+2017:08:25 12:43:49 thread 13300 ends(364)
+2017:08:25 12:43:49 mobile_log_d.rd exit!(364)
+2017:08:25 19:22:46 =====MOBILELOG START=======(319)
+2017:08:25 19:22:46 boot mode is 1(319)
+2017:08:25 19:22:46 set cur path: /data/log_temp/meta/(319)
+2017:08:25 19:22:46 kernel log from /proc/kmsg(319)
+2017:08:25 19:22:48 access /sys/kernel/debug/tracing/instances/bsp/trace_pipe failed(No such file or directory)(319)
+2017:08:25 19:22:48 open tagmap done(319)
+2017:08:25 19:22:48 open /dev/scp fail(No such file or directory)(319)
+2017:08:25 19:22:48 set main_log rotate size: 4452 KB(prio:5/23)(319)
+2017:08:25 19:22:48 set crash_log rotate size: 4452 KB(prio:5/23)(319)
+2017:08:25 19:22:48 set sys_log rotate size: 2671 KB(prio:3/23)(319)
+2017:08:25 19:22:48 set radio_log rotate size: 2671 KB(prio:3/23)(319)
+2017:08:25 19:22:48 set events_log rotate size: 890 KB(prio:1/23)(319)
+2017:08:25 19:22:48 set kernel_log rotate size: 4452 KB(prio:5/23)(319)
+2017:08:25 19:22:48 set atf_log rotate size: 890 KB(prio:1/23)(319)
+2017:08:25 19:22:49 logd_sock: 17(319)
+2017:08:25 19:22:49 read thread 388(319)
+2017:08:25 19:22:49 write thread 389(319)
+2017:08:25 19:22:49 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 19:22:50 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 19:22:51 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 19:22:52 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 19:22:53 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 19:22:54 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 19:22:55 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 19:22:56 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 19:22:57 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 19:22:58 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 19:22:59 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 19:23:00 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 19:23:01 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 19:23:02 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 19:23:03 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 19:23:04 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 19:23:05 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 19:23:06 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 19:23:07 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 19:23:08 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 19:23:09 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 19:23:10 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 19:23:11 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 19:23:12 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 19:23:13 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 19:23:14 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 19:23:15 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 19:23:16 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 19:23:17 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 19:23:18 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 19:23:19 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 19:23:20 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:07:04 =====MOBILELOG START=======(363)
+2017:08:25 20:07:04 boot mode is 0(363)
+2017:08:25 20:07:04 no start logging(363)
+2017:08:25 20:26:13 =====MOBILELOG START=======(319)
+2017:08:25 20:26:13 boot mode is 1(319)
+2017:08:25 20:26:13 set cur path: /data/log_temp/meta/(319)
+2017:08:25 20:26:13 kernel log from /proc/kmsg(319)
+2017:08:25 20:26:15 access /sys/kernel/debug/tracing/instances/bsp/trace_pipe failed(No such file or directory)(319)
+2017:08:25 20:26:15 open tagmap done(319)
+2017:08:25 20:26:15 open /dev/scp fail(No such file or directory)(319)
+2017:08:25 20:26:15 set main_log rotate size: 4452 KB(prio:5/23)(319)
+2017:08:25 20:26:15 set crash_log rotate size: 4452 KB(prio:5/23)(319)
+2017:08:25 20:26:15 set sys_log rotate size: 2671 KB(prio:3/23)(319)
+2017:08:25 20:26:15 set radio_log rotate size: 2671 KB(prio:3/23)(319)
+2017:08:25 20:26:15 set events_log rotate size: 890 KB(prio:1/23)(319)
+2017:08:25 20:26:15 set kernel_log rotate size: 4452 KB(prio:5/23)(319)
+2017:08:25 20:26:15 set atf_log rotate size: 890 KB(prio:1/23)(319)
+2017:08:25 20:26:15 logd_sock: 17(319)
+2017:08:25 20:26:15 read thread 388(319)
+2017:08:25 20:26:15 write thread 389(319)
+2017:08:25 20:26:15 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:26:16 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:26:17 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:26:18 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:26:19 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:26:20 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:26:21 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:26:22 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:26:23 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:26:24 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:26:25 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:26:26 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:26:27 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:26:28 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:26:29 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:26:30 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:26:31 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:26:32 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:26:33 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:26:34 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:26:35 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:26:36 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:26:37 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:26:38 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:26:39 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:26:40 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:26:41 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:26:42 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:26:43 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:26:44 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:26:45 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:26:46 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:26:47 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:26:48 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:26:49 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:26:50 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:26:51 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:26:52 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:26:53 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:26:54 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:26:55 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:26:56 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:26:57 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:26:58 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:26:59 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:27:00 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:27:01 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:27:02 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:27:03 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:27:04 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:27:05 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:27:06 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:27:07 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:27:08 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:27:09 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:27:10 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:27:11 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:27:12 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:27:13 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:27:14 check '/mnt/m_external_sd/' fail(No such file or directory)(319)
+2017:08:25 20:27:15 check external sdcard timeout! stop!(319)
+2017:08:25 20:27:15 stop logging...(319)
+2017:08:25 20:27:15 flush mobilelog buffer before stopped...(319)
+2017:08:25 20:27:15 mobile_log_d.wr exit!(319)
+2017:08:25 20:27:15 mobile_log_d.rd exit!(319)
+2017:08:25 20:46:49 =====MOBILELOG START=======(364)
+2017:08:25 20:46:49 boot mode is 0(364)
+2017:08:25 20:46:49 no start logging(364)
+2017:08:28 22:15:01 =====MOBILELOG START=======(364)
+2017:08:28 22:15:01 boot mode is 0(364)
+2017:08:28 22:15:01 no start logging(364)
+2017:08:29 10:27:58 new client(6) conected!(364)
+2017:08:29 10:28:01 recv set_storage_path,/storage/emulated/0 from 6(364)
+2017:08:29 10:28:01 thread 10817 handle msg(364)
+2017:08:29 10:28:01 recv deep_start from 6(364)
+2017:08:29 10:28:01 thread 10818 handle msg(364)
+2017:08:29 10:28:01 'deepstart' mblog(364)
+2017:08:29 10:28:01 log dir: /storage/emulated/0/mtklog/mobilelog/APLog_2017_0829_102801/(364)
+2017:08:29 10:28:01 APLog_2017_0825_124323/ not in sd anymore(364)
+2017:08:29 10:28:01 delete APLog_2017_0825_124323/ (no exist)(364)
+2017:08:29 10:28:01 set cur path: /storage/emulated/0/mtklog/mobilelog/APLog_2017_0829_102801/(364)
+2017:08:29 10:28:01 create thread 10820 do copy dump(364)
+2017:08:29 10:28:01 kernel log from /proc/kmsg(364)
+2017:08:29 10:28:01 change ioprio, default:0,0(364)
+2017:08:29 10:28:01 dump /data/misc/mblog/inter_sd_folder(364)
+2017:08:29 10:28:01 open /sys/kernel/debug/tracing/instances/bsp/trace_pipe fail(Permission denied)(364)
+2017:08:29 10:28:01 open tagmap done(364)
+2017:08:29 10:28:02 dump /data/misc/mblog/mblog_config(364)
+2017:08:29 10:28:02 open /dev/scp fail(No such file or directory)(364)
+2017:08:29 10:28:02 set main_log rotate size: 22260 KB(prio:5/23)(364)
+2017:08:29 10:28:02 set crash_log rotate size: 22260 KB(prio:5/23)(364)
+2017:08:29 10:28:02 set sys_log rotate size: 13356 KB(prio:3/23)(364)
+2017:08:29 10:28:02 set radio_log rotate size: 13356 KB(prio:3/23)(364)
+2017:08:29 10:28:02 set events_log rotate size: 4452 KB(prio:1/23)(364)
+2017:08:29 10:28:02 set kernel_log rotate size: 22260 KB(prio:5/23)(364)
+2017:08:29 10:28:02 set atf_log rotate size: 4452 KB(prio:1/23)(364)
+2017:08:29 10:28:02 dump /data/misc/mblog/mblog_history(364)
+2017:08:29 10:28:02 dump /proc/bootprof(364)
+2017:08:29 10:28:02 dump /system/vendor/data/misc/ProjectConfig.mk(364)
+2017:08:29 10:28:02 dump /proc/last_kmsg(364)
+2017:08:29 10:28:02 logd_sock: 18(364)
+2017:08:29 10:28:02 read thread 10834(364)
+2017:08:29 10:28:02 init debug(364)
+2017:08:29 10:28:02 write thread 10835(364)
+2017:08:29 10:28:02 dump sys property(364)
+2017:08:29 10:28:02 copydump over(364)
+2017:08:29 10:28:02 thread 10818 comes(364)
+2017:08:29 10:28:02 thread 10818 ends(364)
+2017:08:29 10:33:11 recv deep_stop from 6(364)
+2017:08:29 10:33:11 thread 11035 handle msg(364)
+2017:08:29 10:33:11 thread 11035 comes(364)
+2017:08:29 10:33:11 stop logging...(364)
+2017:08:29 10:33:11 deinit debug(364)
+2017:08:29 10:33:11 flush mobilelog buffer before stopped...(364)
+2017:08:29 10:33:11 mobile_log_d.wr exit!(364)
+2017:08:29 10:33:11 thread 11035 ends(364)
+2017:08:29 10:33:11 mobile_log_d.rd exit!(364)
+2017:08:29 14:04:23 =====MOBILELOG START=======(364)
+2017:08:29 14:04:24 boot mode is 0(364)
+2017:08:29 14:04:24 no start logging(364)
+2017:08:29 14:06:16 =====MOBILELOG START=======(363)
+2017:08:29 14:06:17 boot mode is 0(363)
+2017:08:29 14:06:17 no start logging(363)
+2007:01:15 05:29:06 =====MOBILELOG START=======(365)
+2007:01:15 05:29:06 boot mode is 0(365)
+2007:01:15 05:29:06 no start logging(365)
+2017:08:29 15:43:47 =====MOBILELOG START=======(365)
+2017:08:29 15:43:47 boot mode is 0(365)
+2017:08:29 15:43:47 no start logging(365)
+2017:08:29 16:51:49 =====MOBILELOG START=======(365)
+2017:08:29 16:51:49 boot mode is 0(365)
+2017:08:29 16:51:49 no start logging(365)
+2017:08:29 17:41:02 =====MOBILELOG START=======(364)
+2017:08:29 17:41:02 boot mode is 0(364)
+2017:08:29 17:41:03 no start logging(364)
+2017:08:29 22:04:50 =====MOBILELOG START=======(364)
+2017:08:29 22:04:50 boot mode is 0(364)
+2017:08:29 22:04:50 no start logging(364)
+2017:08:30 17:55:33 =====MOBILELOG START=======(364)
+2017:08:30 17:55:34 boot mode is 0(364)
+2017:08:30 17:55:34 no start logging(364)
+2017:09:03 19:01:23 =====MOBILELOG START=======(366)
+2017:09:03 19:01:24 boot mode is 0(366)
+2017:09:03 19:01:24 no start logging(366)
+2017:09:08 08:23:20 =====MOBILELOG START=======(363)
+2017:09:08 08:23:20 boot mode is 0(363)
+2017:09:08 08:23:20 no start logging(363)
+2017:09:10 15:07:38 =====MOBILELOG START=======(364)
+2017:09:10 15:07:39 boot mode is 0(364)
+2017:09:10 15:07:39 no start logging(364)
+2010:01:01 08:00:50 =====MOBILELOG START=======(370)
+2010:01:01 08:00:51 boot mode is 0(370)
+2010:01:01 08:00:51 no start logging(370)
+2010:01:01 11:10:45 new client(6) conected!(370)
+2010:01:01 11:10:56 recv set_storage_path,/storage/emulated/0 from 6(370)
+2010:01:01 11:10:56 thread 5904 handle msg(370)
+2010:01:01 11:10:56 recv deep_start from 6(370)
+2010:01:01 11:10:56 thread 5905 handle msg(370)
+2010:01:01 11:10:56 'deepstart' mblog(370)
+2010:01:01 11:10:56 log dir: /storage/emulated/0/mtklog/mobilelog/APLog_2010_0101_111056/(370)
+2010:01:01 11:10:56 APLog_2017_0829_102801/ not in sd anymore(370)
+2010:01:01 11:10:56 delete APLog_2017_0829_102801/ (no exist)(370)
+2010:01:01 11:10:56 set cur path: /storage/emulated/0/mtklog/mobilelog/APLog_2010_0101_111056/(370)
+2010:01:01 11:10:56 kernel log from /proc/kmsg(370)
+2010:01:01 11:10:56 create thread 5907 do copy dump(370)
+2010:01:01 11:10:56 change ioprio, default:0,0(370)
+2010:01:01 11:10:56 dump /data/misc/mblog/inter_sd_folder(370)
+2010:01:01 11:10:56 open /sys/kernel/debug/tracing/instances/bsp/trace_pipe fail(Permission denied)(370)
+2010:01:01 11:10:56 open tagmap done(370)
+2010:01:01 11:10:56 open /dev/scp fail(No such file or directory)(370)
+2010:01:01 11:10:56 set main_log rotate size: 22260 KB(prio:5/23)(370)
+2010:01:01 11:10:56 set crash_log rotate size: 22260 KB(prio:5/23)(370)
+2010:01:01 11:10:56 set sys_log rotate size: 13356 KB(prio:3/23)(370)
+2010:01:01 11:10:56 set radio_log rotate size: 13356 KB(prio:3/23)(370)
+2010:01:01 11:10:57 set events_log rotate size: 4452 KB(prio:1/23)(370)
+2010:01:01 11:10:57 set kernel_log rotate size: 22260 KB(prio:5/23)(370)
+2010:01:01 11:10:57 set atf_log rotate size: 4452 KB(prio:1/23)(370)
+2010:01:01 11:10:57 dump /data/misc/mblog/mblog_config(370)
+2010:01:01 11:10:57 dump /data/misc/mblog/mblog_history(370)
+2010:01:01 11:10:57 dump /proc/bootprof(370)
+2010:01:01 11:10:57 dump /system/vendor/data/misc/ProjectConfig.mk(370)
+2010:01:01 11:10:57 dump /proc/last_kmsg(370)
+2010:01:01 11:10:57 logd_sock: 18(370)
+2010:01:01 11:10:57 read thread 5945(370)
+2010:01:01 11:10:57 write thread 5946(370)
+2010:01:01 11:10:57 init debug(370)
+2010:01:01 11:10:57 thread 5905 comes(370)
+2010:01:01 11:10:57 thread 5905 ends(370)
+2010:01:01 11:10:57 dump sys property(370)
+2010:01:01 11:10:57 copydump over(370)
+2010:01:01 11:11:21 =====MOBILELOG START=======(6626)
+2010:01:01 11:11:21 maybe not first start, and property is 1(6626)
+2010:01:01 11:11:21 boot mode is 0(6626)
+2010:01:01 11:11:21 set cur path: /data/log_temp/boot/(6626)
+2010:01:01 11:11:21 kernel log from /proc/kmsg(6626)
+2010:01:01 11:11:21 open /sys/kernel/debug/tracing/instances/bsp/trace_pipe fail(Permission denied)(6626)
+2010:01:01 11:11:21 open tagmap done(6626)
+2010:01:01 11:11:21 open /dev/scp fail(No such file or directory)(6626)
+2010:01:01 11:11:21 set main_log rotate size: 4452 KB(prio:5/23)(6626)
+2010:01:01 11:11:21 set crash_log rotate size: 4452 KB(prio:5/23)(6626)
+2010:01:01 11:11:21 set sys_log rotate size: 2671 KB(prio:3/23)(6626)
+2010:01:01 11:11:21 set radio_log rotate size: 2671 KB(prio:3/23)(6626)
+2010:01:01 11:11:21 set events_log rotate size: 890 KB(prio:1/23)(6626)
+2010:01:01 11:11:21 set kernel_log rotate size: 4452 KB(prio:5/23)(6626)
+2010:01:01 11:11:21 set atf_log rotate size: 890 KB(prio:1/23)(6626)
+2010:01:01 11:11:22 logd_sock: 17(6626)
+2010:01:01 11:11:22 write thread 6637(6626)
+2010:01:01 11:11:22 read thread 6636(6626)
+2010:01:01 11:11:22 init debug(6626)
+2010:01:01 11:12:58 =====MOBILELOG START=======(368)
+2010:01:01 11:12:59 boot mode is 0(368)
+2010:01:01 11:12:59 set cur path: /data/log_temp/boot/(368)
+2010:01:01 11:12:59 kernel log from /proc/kmsg(368)
+2010:01:01 11:12:59 open /sys/kernel/debug/tracing/instances/bsp/trace_pipe fail(Permission denied)(368)
+2010:01:01 11:12:59 open tagmap done(368)
+2010:01:01 11:12:59 open /dev/scp fail(No such file or directory)(368)
+2010:01:01 11:12:59 set main_log rotate size: 4452 KB(prio:5/23)(368)
+2010:01:01 11:12:59 set crash_log rotate size: 4452 KB(prio:5/23)(368)
+2010:01:01 11:12:59 set sys_log rotate size: 2671 KB(prio:3/23)(368)
+2010:01:01 11:12:59 set radio_log rotate size: 2671 KB(prio:3/23)(368)
+2010:01:01 11:12:59 set events_log rotate size: 890 KB(prio:1/23)(368)
+2010:01:01 11:12:59 set kernel_log rotate size: 4452 KB(prio:5/23)(368)
+2010:01:01 11:12:59 set atf_log rotate size: 890 KB(prio:1/23)(368)
+2010:01:01 11:13:00 logd_sock: 17(368)
+2010:01:01 11:13:00 init debug(368)
+2010:01:01 11:13:00 read thread 657(368)
+2010:01:01 11:13:00 write thread 658(368)
+2010:01:01 11:13:41 new client(18) conected!(368)
+2010:01:01 11:13:41 recv set_storage_path,/storage/emulated/0 from 18(368)
+2010:01:01 11:13:41 thread 3101 handle msg(368)
+2010:01:01 11:13:41 recv copy from 18(368)
+2010:01:01 11:13:41 thread 3102 handle msg(368)
+2010:01:01 11:13:42 log dir: /storage/emulated/0/mtklog/mobilelog/APLog_2010_0101_111341/(368)
+2010:01:01 11:13:42 APLog_2010_0101_111056/ not in sd anymore(368)
+2010:01:01 11:13:42 delete APLog_2010_0101_111056/ (no exist)(368)
+2010:01:01 11:13:42 set cur path: /storage/emulated/0/mtklog/mobilelog/APLog_2010_0101_111341/(368)
+2010:01:01 11:13:42 create thread 3118 do copy dump(368)
+2010:01:01 11:13:42 change ioprio, default:0,0(368)
+2010:01:01 11:13:42 set main_log rotate size: 22260 KB(prio:5/23)(368)
+2010:01:01 11:13:42 set crash_log rotate size: 22260 KB(prio:5/23)(368)
+2010:01:01 11:13:42 set sys_log rotate size: 13356 KB(prio:3/23)(368)
+2010:01:01 11:13:42 set radio_log rotate size: 13356 KB(prio:3/23)(368)
+2010:01:01 11:13:42 set events_log rotate size: 4452 KB(prio:1/23)(368)
+2010:01:01 11:13:42 set kernel_log rotate size: 22260 KB(prio:5/23)(368)
+2010:01:01 11:13:42 set atf_log rotate size: 4452 KB(prio:1/23)(368)
+2010:01:01 11:13:43 copy /data/log_temp/boot/ done(368)
+2010:01:01 11:13:43 dump /data/misc/mblog/inter_sd_folder(368)
+2010:01:01 11:13:43 dump /data/misc/mblog/mblog_config(368)
+2010:01:01 11:13:43 dump /data/misc/mblog/mblog_history(368)
+2010:01:01 11:13:43 dump /proc/bootprof(368)
+2010:01:01 11:13:43 dump /system/vendor/data/misc/ProjectConfig.mk(368)
+2010:01:01 11:13:43 dump /proc/last_kmsg(368)
+2010:01:01 11:13:44 dump sys property(368)
+2010:01:01 11:13:44 copydump over(368)
+2017:09:11 14:26:05 recv deep_stop from 18(368)
+2017:09:11 14:26:05 thread 4388 handle msg(368)
+2017:09:11 14:26:05 thread 4388 comes(368)
+2017:09:11 14:26:05 stop logging...(368)
+2017:09:11 14:26:05 flush mobilelog buffer before stopped...(368)
+2017:09:11 14:26:05 deinit debug(368)
+2017:09:11 14:26:05 mobile_log_d.wr exit!(368)
+2017:09:11 14:26:05 thread 4388 ends(368)
+2017:09:11 14:26:05 mobile_log_d.rd exit!(368)
+2017:09:11 17:15:28 recv returned 0 from client 18(Success)(368)
+2017:09:11 17:15:28 close client 18(368)
+2017:09:11 17:15:29 new client(6) conected!(368)
+2017:09:15 21:51:18 =====MOBILELOG START=======(367)
+2017:09:15 21:51:19 boot mode is 0(367)
+2017:09:15 21:51:19 no start logging(367)
+2010:01:01 08:00:20 =====MOBILELOG START=======(369)
+2010:01:01 08:00:21 boot mode is 0(369)
+2010:01:01 08:00:21 no start logging(369)
+2017:09:20 14:47:53 new client(6) conected!(369)
+2017:09:20 14:47:58 recv set_storage_path,/storage/emulated/0 from 6(369)
+2017:09:20 14:47:58 thread 7189 handle msg(369)
+2017:09:20 14:47:58 recv deep_start from 6(369)
+2017:09:20 14:47:58 thread 7190 handle msg(369)
+2017:09:20 14:47:58 'deepstart' mblog(369)
+2017:09:20 14:47:59 log dir: /storage/emulated/0/mtklog/mobilelog/APLog_2017_0920_144758/(369)
+2017:09:20 14:47:59 APLog_2010_0101_111341/ not in sd anymore(369)
+2017:09:20 14:47:59 delete APLog_2010_0101_111341/ (no exist)(369)
+2017:09:20 14:47:59 set cur path: /storage/emulated/0/mtklog/mobilelog/APLog_2017_0920_144758/(369)
+2017:09:20 14:47:59 create thread 7193 do copy dump(369)
+2017:09:20 14:47:59 kernel log from /proc/kmsg(369)
+2017:09:20 14:47:59 change ioprio, default:0,0(369)
+2017:09:20 14:47:59 dump /data/misc/mblog/inter_sd_folder(369)
+2017:09:20 14:47:59 open /sys/kernel/debug/tracing/instances/bsp/trace_pipe fail(Permission denied)(369)
+2017:09:20 14:47:59 open tagmap done(369)
+2017:09:20 14:47:59 open /dev/scp fail(No such file or directory)(369)
+2017:09:20 14:47:59 set main_log rotate size: 22260 KB(prio:5/23)(369)
+2017:09:20 14:47:59 set crash_log rotate size: 22260 KB(prio:5/23)(369)
+2017:09:20 14:47:59 set sys_log rotate size: 13356 KB(prio:3/23)(369)
+2017:09:20 14:47:59 set radio_log rotate size: 13356 KB(prio:3/23)(369)
+2017:09:20 14:47:59 set events_log rotate size: 4452 KB(prio:1/23)(369)
+2017:09:20 14:47:59 set kernel_log rotate size: 22260 KB(prio:5/23)(369)
+2017:09:20 14:47:59 set atf_log rotate size: 4452 KB(prio:1/23)(369)
+2017:09:20 14:47:59 dump /data/misc/mblog/mblog_config(369)
+2017:09:20 14:47:59 dump /data/misc/mblog/mblog_history(369)
+2017:09:20 14:47:59 dump /proc/bootprof(369)
+2017:09:20 14:47:59 dump /system/vendor/data/misc/ProjectConfig.mk(369)
+2017:09:20 14:47:59 dump /proc/last_kmsg(369)
+2017:09:20 14:47:59 logd_sock: 18(369)
+2017:09:20 14:47:59 read thread 7203(369)
+2017:09:20 14:47:59 write thread 7204(369)
+2017:09:20 14:47:59 init debug(369)
+2017:09:20 14:47:59 thread 7190 comes(369)
+2017:09:20 14:47:59 thread 7190 ends(369)
+2017:09:20 14:47:59 dump sys property(369)
+2017:09:20 14:47:59 copydump over(369)
+2017:09:20 14:50:09 recv deep_stop from 6(369)
+2017:09:20 14:50:09 thread 7493 handle msg(369)
+2017:09:20 14:50:09 thread 7493 comes(369)
+2017:09:20 14:50:09 stop logging...(369)
+2017:09:20 14:50:09 flush mobilelog buffer before stopped...(369)
+2017:09:20 14:50:09 deinit debug(369)
+2017:09:20 14:50:09 mobile_log_d.wr exit!(369)
+2017:09:20 14:50:09 thread 7493 ends(369)
+2017:09:20 14:50:09 mobile_log_d.rd exit!(369)
+2017:09:20 14:52:01 recv returned 0 from client 6(Success)(369)
+2017:09:20 14:52:01 close client 6(369)
+2017:09:20 14:52:02 new client(6) conected!(369)
+2017:09:20 14:57:08 recv set_storage_path,/storage/emulated/0 from 6(369)
+2017:09:20 14:57:08 thread 11734 handle msg(369)
+2017:09:20 14:57:08 recv deep_start from 6(369)
+2017:09:20 14:57:08 thread 11735 handle msg(369)
+2017:09:20 14:57:08 'deepstart' mblog(369)
+2017:09:20 14:57:08 log dir: /storage/emulated/0/mtklog/mobilelog/APLog_2017_0920_145708/(369)
+2017:09:20 14:57:08 APLog_2017_0920_144758/ not in sd anymore(369)
+2017:09:20 14:57:08 delete APLog_2017_0920_144758/ (no exist)(369)
+2017:09:20 14:57:08 set cur path: /storage/emulated/0/mtklog/mobilelog/APLog_2017_0920_145708/(369)
+2017:09:20 14:57:08 create thread 11754 do copy dump(369)
+2017:09:20 14:57:08 kernel log from /proc/kmsg(369)
+2017:09:20 14:57:08 change ioprio, default:0,0(369)
+2017:09:20 14:57:08 open /sys/kernel/debug/tracing/instances/bsp/trace_pipe fail(Permission denied)(369)
+2017:09:20 14:57:08 open /dev/scp fail(No such file or directory)(369)
+2017:09:20 14:57:08 set main_log rotate size: 22260 KB(prio:5/23)(369)
+2017:09:20 14:57:08 set crash_log rotate size: 22260 KB(prio:5/23)(369)
+2017:09:20 14:57:08 set sys_log rotate size: 13356 KB(prio:3/23)(369)
+2017:09:20 14:57:08 set radio_log rotate size: 13356 KB(prio:3/23)(369)
+2017:09:20 14:57:08 set events_log rotate size: 4452 KB(prio:1/23)(369)
+2017:09:20 14:57:08 set kernel_log rotate size: 22260 KB(prio:5/23)(369)
+2017:09:20 14:57:08 set atf_log rotate size: 4452 KB(prio:1/23)(369)
+2017:09:20 14:57:08 dump /data/misc/mblog/inter_sd_folder(369)
+2017:09:20 14:57:09 dump /data/misc/mblog/mblog_config(369)
+2017:09:20 14:57:09 dump /data/misc/mblog/mblog_history(369)
+2017:09:20 14:57:09 dump /proc/bootprof(369)
+2017:09:20 14:57:09 dump /system/vendor/data/misc/ProjectConfig.mk(369)
+2017:09:20 14:57:09 logd_sock: 18(369)
+2017:09:20 14:57:09 read thread 11763(369)
+2017:09:20 14:57:09 init debug(369)
+2017:09:20 14:57:09 write thread 11764(369)
+2017:09:20 14:57:09 dump /proc/last_kmsg(369)
+2017:09:20 14:57:09 thread 11735 comes(369)
+2017:09:20 14:57:09 thread 11735 ends(369)
+2017:09:20 14:57:09 dump sys property(369)
+2017:09:20 14:57:09 copydump over(369)
+2017:09:20 14:57:24 recv deep_stop from 6(369)
+2017:09:20 14:57:24 thread 12130 handle msg(369)
+2017:09:20 14:57:24 thread 12130 comes(369)
+2017:09:20 14:57:24 stop logging...(369)
+2017:09:20 14:57:24 flush mobilelog buffer before stopped...(369)
+2017:09:20 14:57:24 deinit debug(369)
+2017:09:20 14:57:24 mobile_log_d.wr exit!(369)
+2017:09:20 14:57:24 thread 12130 ends(369)
+2017:09:20 14:57:25 mobile_log_d.rd exit!(369)
+2017:09:20 14:57:35 recv set_storage_path,/storage/emulated/0 from 6(369)
+2017:09:20 14:57:35 thread 12409 handle msg(369)
+2017:09:20 14:57:35 recv deep_start from 6(369)
+2017:09:20 14:57:35 thread 12410 handle msg(369)
+2017:09:20 14:57:35 'deepstart' mblog(369)
+2017:09:20 14:57:35 log dir: /storage/emulated/0/mtklog/mobilelog/APLog_2017_0920_145735/(369)
+2017:09:20 14:57:35 APLog_2017_0920_145708/ not in sd anymore(369)
+2017:09:20 14:57:35 delete APLog_2017_0920_145708/ (no exist)(369)
+2017:09:20 14:57:35 set cur path: /storage/emulated/0/mtklog/mobilelog/APLog_2017_0920_145735/(369)
+2017:09:20 14:57:35 create thread 12415 do copy dump(369)
+2017:09:20 14:57:35 kernel log from /proc/kmsg(369)
+2017:09:20 14:57:35 change ioprio, default:0,0(369)
+2017:09:20 14:57:35 open /sys/kernel/debug/tracing/instances/bsp/trace_pipe fail(Permission denied)(369)
+2017:09:20 14:57:35 open /dev/scp fail(No such file or directory)(369)
+2017:09:20 14:57:35 set main_log rotate size: 22260 KB(prio:5/23)(369)
+2017:09:20 14:57:35 set crash_log rotate size: 22260 KB(prio:5/23)(369)
+2017:09:20 14:57:35 set sys_log rotate size: 13356 KB(prio:3/23)(369)
+2017:09:20 14:57:35 set radio_log rotate size: 13356 KB(prio:3/23)(369)
+2017:09:20 14:57:35 set events_log rotate size: 4452 KB(prio:1/23)(369)
+2017:09:20 14:57:35 set kernel_log rotate size: 22260 KB(prio:5/23)(369)
+2017:09:20 14:57:35 set atf_log rotate size: 4452 KB(prio:1/23)(369)
+2017:09:20 14:57:35 dump /data/misc/mblog/inter_sd_folder(369)
+2017:09:20 14:57:36 dump /data/misc/mblog/mblog_config(369)
+================ END of FILE ===============
+
+<< system properties >>
+[persist.radio.multisim.config]: [dsds]
+[persist.mtk_ims_support]: [1]
+[persist.mtk_vilte_support]: [1]
+[persist.mtk_volte_support]: [1]
+[persist.operator.seg]: [SEGC]
+[persist.operator.optr]: [OP01]
+[persist.operator.spec]: [SPEC0200]
+[ril.volte.mal.opkey]: [0x0001]
+[ril.volte.mal.vijit]: [3]
+[ril.volte.mal.vojit]: [26]
+[ril.volte.mal.latency]: [65535]
+[ril.volte.mal.throupt]: [65535]
+[ril.volte.mal.pkterrth]: [99]
+[ril.volte.mal.retranth]: [99]
+[ril.volte.mal.rb_hoddc_t]: [3]
+[ril.volte.mal.rb_hol2w_t]: [10]
+[ril.volte.mal.rb_how2l_t]: [150]
+[persist.mtk.ims.video.enable]: [1]
+[persist.mtk.volte.enable]: [1]
+[media.wfd.portrait]: [0]
+[media.wfd.video-format]: [5]
+[net.ipv6.ccmni4.plen]: []
+[net.ipv6.ccmni4.prefix]: []
+[soter.teei.init]: [INIT_OK]
+[soter.teei.vold.decrypt]: [OK]
+[cdma.ril.eboot]: [0]
+[cdma.ril.ecclist]: []
+[cdma.ril.ecclist1]: []
+[cdma.version.baseband]: [SIXTH.CBP.MD.MP2.V63.5_P4, 2017/05/02 11:22]
+[persist.auto_answer]: [1]
+[mediatek.wlan.chip]: [CONSYS_MT6735]
+[mediatek.wlan.ctia]: [0]
+[mediatek.wlan.module.postfix]: [_consys_mt6735]
+[ro.wlan.mtk.wifi.5g]: [1]
+[service.nvram_init]: [Ready]
+[ftrace.buffer.log]: [bsp]
+[mtk.md1.status]: [ready]
+[mtk.md3.status]: [ready]
+[net.cdma.mdmstat]: [ready]
+[persist.mtk.wcn.combo.chipid]: [0x0321]
+[persist.mtk.wcn.patch.version]: [20170220100539a]
+[persist.mtk.wcn.dynamic.dump]: [0]
+[service.wcn.driver.ready]: [yes]
+[service.wcn.coredump.mode]: [0]
+[af.music.outputid]: [3]
+[af.rf_info]: [273]
+[ril.cdma.report]: [0]
+[ril.cdma.report.case]: [0]
+[ril.mux.report.case]: [0]
+[ril.active.md]: [6]
+[ril.mux.ee.md1]: [0]
+[persist.mtk.aee.mode]: [3]
+[persist.mtk.aee.modeswitchedby]: [mobile_log_d]
+[debug.mdlogger.log2sd.path]: [internal_sd]
+[debug.mdlogger.Running]: [0]
+[mtk_wifi.fwpath]: [STA]
+[debug.netlog.stopreason]: []
+[debug.netlog.writtingpath]: [/storage/emulated/0/mtklog/netlog/NTLog_2017_0920_145736]
+[debug.mtklog.netlog.Running]: [1]
+[debug.mtklog.netlog.Breakloop]: [0]
+[ro.dalvik.vm.native.bridge]: [0]
+[dalvik.vm.isa.arm.variant]: [cortex-a53]
+[dalvik.vm.isa.arm.features]: [default]
+[dalvik.vm.isa.arm64.variant]: [cortex-a53]
+[dalvik.vm.isa.arm64.features]: [default]
+[dalvik.vm.usejit]: [true]
+[dalvik.vm.heapsize]: [256m]
+[dalvik.vm.dex2oat-Xms]: [64m]
+[dalvik.vm.dex2oat-Xmx]: [512m]
+[dalvik.vm.appimageformat]: [lz4]
+[dalvik.vm.usejitprofiles]: [true]
+[dalvik.vm.heapgrowthlimit]: [128m]
+[dalvik.vm.stack-trace-file]: [/data/anr/traces.txt]
+[dalvik.vm.image-dex2oat-Xms]: [64m]
+[dalvik.vm.image-dex2oat-Xmx]: [64m]
+[dalvik.vm.mtk-stack-trace-file]: [/data/anr/mtk_traces.txt]
+[ro.config.ringtone]: [ivvi.ogg]
+[ro.config.alarm_alert]: [Alarm.ogg]
+[ro.config.notification_sound]: [Message01.ogg]
+[ro.build.fingerprint]: [ivvi/ivviV3-T/ivviV3-T:7.0/NRD90M/1501730001:user/release-keys]
+[ro.crypto.type]: [block]
+[ro.crypto.state]: [encrypted]
+[ro.crypto.fs_crypto_blkdev]: [/dev/block/dm-1]
+[vold.path.internal_storage]: [/storage/emulated/0]
+[vold.decrypt]: [trigger_restart_framework]
+[vold.emmc_size]: [31268536320]
+[vold.encryption.type]: [default]
+[vold.has_adoptable]: [1]
+[vold.post_fs_data_done]: [1]
+[vold.support_external_sd]: [1]
+[pm.dexopt.boot]: [verify-profile]
+[pm.dexopt.ab-ota]: [speed-profile]
+[pm.dexopt.install]: [interpret-only]
+[pm.dexopt.core-app]: [speed]
+[pm.dexopt.bg-dexopt]: [speed-profile]
+[pm.dexopt.first-boot]: [interpret-only]
+[pm.dexopt.shared-apk]: [speed]
+[pm.dexopt.nsys-library]: [speed]
+[pm.dexopt.forced-dexopt]: [speed]
+[ro.sf.hwrotation]: [0]
+[ro.sf.lcd_density]: [320]
+[ro.adb.secure]: [1]
+[ro.com.google.clientidbase]: [android-coolpad]
+[ro.com.google.clientidbase.am]: [android-coolpad]
+[ro.com.google.clientidbase.yt]: [android-coolpad]
+[ro.com.google.clientidbase.gmm]: [android-coolpad]
+[ro.com.android.mobiledata]: [false]
+[ro.def.software.svn]: [7.0.063.P3.170803.V3-T-LC]
+[ro.frp.pst]: [/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/frp]
+[ro.nfc.port]: [I2C]
+[ro.sys.usb.mtp.whql.enable]: [0]
+[ro.sys.usb.bicr]: [no]
+[ro.sys.usb.storage.type]: [mtp]
+[ro.sys.usb.charging.only]: [yes]
+[ro.sys.sdcardfs]: [1]
+[ro.boot.mode]: [normal]
+[ro.boot.flash.locked]: [1]
+[ro.boot.hardware]: [mt6735]
+[ro.boot.serialno]: [BANJ49B6MVEA9LB6]
+[ro.boot.bootreason]: [power_key]
+[ro.boot.opt_c2k_support]: [1]
+[ro.boot.opt_lte_support]: [1]
+[ro.boot.opt_md1_support]: [6]
+[ro.boot.opt_md3_support]: [2]
+[ro.boot.opt_c2k_lte_mode]: [1]
+[ro.boot.opt_irat_support]: [1]
+[ro.boot.opt_using_default]: [1]
+[ro.boot.verifiedbootstate]: [green]
+[ro.cdma.cw.enable]: [*74]
+[ro.cdma.cw.disable]: [*740]
+[ro.cdma.cfb.enable]: [*90]
+[ro.cdma.cfb.disable]: [*900]
+[ro.cdma.cfu.enable]: [*72]
+[ro.cdma.cfu.disable]: [*720]
+[ro.cdma.cfdf.enable]: [*68]
+[ro.cdma.cfdf.disable]: [*680]
+[ro.cdma.cfnr.enable]: [*92]
+[ro.cdma.cfnr.disable]: [*920]
+[ro.cdma.cfall.disable]: [*730]
+[ro.ovvi.product.cmiitid]: [2017CP2424]
+[ro.wifi.channels]: []
+[ro.allow.mock.location]: [0]
+[ro.audio.silent]: [0]
+[ro.board.platform]: [mt6737t]
+[ro.build.id]: [NRD90M]
+[ro.build.date]: [2017年 08月 03日 星期四 11:12:23 CST]
+[ro.build.date.utc]: [1501729943]
+[ro.build.host]: [ovvi-ubuntu003.ovvidomain.com]
+[ro.build.tags]: [release-keys]
+[ro.build.type]: [user]
+[ro.build.user]: [system8]
+[ro.build.flavor]: [V7500-user]
+[ro.build.display.id]: [V063]
+[ro.build.product]: [V7500]
+[ro.build.version.sdk]: [24]
+[ro.build.version.base_os]: []
+[ro.build.version.release]: [7.0]
+[ro.build.version.codename]: [REL]
+[ro.build.version.incremental]: [V063]
+[ro.build.version.preview_sdk]: [0]
+[ro.build.version.all_codenames]: [REL]
+[ro.build.version.security_patch]: [2017-07-05]
+[ro.build.description]: [1501730001]
+[ro.build.characteristics]: [default]
+[ro.media.maxmem]: [500000000]
+[ro.mount.fs]: [EXT4]
+[ro.camera.sound.forced]: [0]
+[ro.expect.recovery_id]: [0xad8bcc3ce236f830b07d022429273929cd43b149000000000000000000000000]
+[ro.kernel.zio]: [38,108,105,16]
+[ro.secure]: [1]
+[ro.yulong.version.bt]: [MTK6625L]
+[ro.yulong.version.gps]: [MTK6625L]
+[ro.yulong.version.tag]: [LC]
+[ro.yulong.version.date]: [2017-08-03]
+[ro.yulong.version.wifi]: [MTK6625L]
+[ro.yulong.version.kernel]: [3.18.19.P3.170803.NRD90M.LC]
+[ro.yulong.version.release]: [7.0.063.P3.170803.V3-T-LC]
+[ro.yulong.version.audiogsm]: [V3_20170315]
+[ro.yulong.version.btloader]: [1.01.001.P3.170803]
+[ro.yulong.version.hardware]: [P3]
+[ro.yulong.version.software]: [7.0.063.P3.170803.V3-T]
+[ro.yulong.version.audiowcdma]: [V3_20170315]
+[ro.yulong.version.audiotdscdma]: [V3_20170315]
+[ro.zygote]: [zygote64_32]
+[ro.zygote.preload.enable]: [0]
+[ro.carrier]: [unknown]
+[ro.product.cpu.abi]: [arm64-v8a]
+[ro.product.cpu.abilist]: [arm64-v8a,armeabi-v7a,armeabi]
+[ro.product.cpu.abilist32]: [armeabi-v7a,armeabi]
+[ro.product.cpu.abilist64]: [arm64-v8a]
+[ro.product.name]: [ivviV3-T]
+[ro.product.board]: []
+[ro.product.brand]: [ivvi]
+[ro.product.model]: [ivvi V3-T]
+[ro.product.device]: [ivviV3-T]
+[ro.product.locale]: [zh-CN]
+[ro.product.manufacturer]: [ivvi]
+[ro.product.first_api_level]: [24]
+[ro.baseband]: [unknown]
+[ro.bootmode]: [normal]
+[ro.hardware]: [mt6735]
+[ro.mediatek.wlan.p2p]: [1]
+[ro.mediatek.wlan.wsc]: [1]
+[ro.mediatek.project.path]: [device/yulong/V7500]
+[ro.mediatek.version.sdk]: [4]
+[ro.mediatek.version.branch]: [alps-mp-n0.mp1]
+[ro.mediatek.version.release]: [alps-mp-n0.mp1-V1.0.2_yl6737t.66.o.n_P38]
+[ro.mediatek.chip_ver]: [S01]
+[ro.mediatek.platform]: [MT6737T]
+[ro.opengles.version]: [196609]
+[ro.operator.seg]: [SEGC]
+[ro.operator.optr]: [OP01]
+[ro.operator.spec]: [SPEC0200]
+[ro.revision]: [0]
+[ro.serialno]: [BANJ49B6MVEA9LB6]
+[ro.bootimage.build.date]: [2017年 08月 03日 星期四 11:12:23 CST]
+[ro.bootimage.build.date.utc]: [1501729943]
+[ro.bootimage.build.fingerprint]: [ivvi/V7500/V7500:7.0/NRD90M/1501730001:user/release-keys]
+[ro.telephony.sim.count]: [2]
+[ro.telephony.default_network]: [10,10]
+[ro.bootloader]: [unknown]
+[ro.debuggable]: [0]
+[ro.mtk_cam_cfb]: [1]
+[ro.mtk_cam_vfb]: [1]
+[ro.mtk_cta_set]: [1]
+[ro.recovery_id]: [0xad8bcc3ce236f830b07d022429273929cd43b149000000000000000000000000]
+[ro.mtk_agps_app]: [1]
+[ro.mtk_bip_scws]: [1]
+[ro.mtk_is_tablet]: [0]
+[ro.mtk_bt_support]: [1]
+[ro.mtk_enable_md1]: [1]
+[ro.mtk_enable_md3]: [1]
+[ro.mtk_fd_support]: [1]
+[ro.mtk_pq_support]: [2]
+[ro.mtk_c2k_support]: [1]
+[ro.mtk_default_ime]: [com.iflytek.inputmethod.FlyIME]
+[ro.mtk_eap_sim_aka]: [1]
+[ro.mtk_gps_support]: [1]
+[ro.mtk_ipo_support]: [1]
+[ro.mtk_lte_support]: [1]
+[ro.mtk_wfd_support]: [1]
+[ro.num_md_protocol]: [2]
+[ro.have_aee_feature]: [1]
+[ro.mtk_dhcpv6c_wifi]: [1]
+[ro.mtk_emmc_support]: [1]
+[ro.mtk_sim_hot_swap]: [1]
+[ro.mtk_wapi_support]: [1]
+[ro.mtk_wlan_support]: [1]
+[ro.sim_me_lock_mode]: [0]
+[ro.mtk_omacp_support]: [1]
+[ro.mtk_pq_color_mode]: [1]
+[ro.mtk_shared_sdcard]: [1]
+[ro.mtk_rild_read_imsi]: [1]
+[ro.mtk_cam_mfb_support]: [3]
+[ro.mtk_cta_drm_support]: [1]
+[ro.mtk_oma_drm_support]: [1]
+[ro.mtk_send_rr_support]: [1]
+[ro.mtk_wappush_support]: [1]
+[ro.mtk_cam_lomo_support]: [1]
+[ro.mtk_dual_mic_support]: [1]
+[ro.mtk_vilte_ut_support]: [0]
+[ro.mtk_wifi_mcc_support]: [1]
+[ro.oem_unlock_supported]: [1]
+[ro.mtk_search_db_support]: [1]
+[ro.have_aacencode_feature]: [1]
+[ro.mtk_bg_power_saving_ui]: [1]
+[ro.mtk_miravision_support]: [1]
+[ro.mtk_perf_response_time]: [1]
+[ro.mtk_world_phone_policy]: [0]
+[ro.mtk_besloudness_support]: [1]
+[ro.mtk_md_sbp_custom_value]: [1]
+[ro.mtk_perfservice_support]: [1]
+[ro.mtk_slow_motion_support]: [1]
+[ro.mtk_fm_recording_support]: [1]
+[ro.mtk_multiple_ims_support]: [1]
+[ro.mtk_protocol1_rat_config]: [C/Lf/Lt/W/T/G]
+[ro.mtk_audio_tuning_tool_ver]: [V1]
+[ro.mtk_dialer_search_support]: [1]
+[ro.mtk_modem_monitor_support]: [1]
+[ro.mtk_perf_simple_start_win]: [1]
+[ro.mtk_tetheringipv6_support]: [1]
+[ro.mtk_microtrust_tee_support]: [1]
+[ro.sim_refresh_reset_by_modem]: [1]
+[ro.mtk_bg_power_saving_support]: [1]
+[ro.mtk_external_sim_only_slots]: [0]
+[ro.mtk_privacy_protection_lock]: [1]
+[ro.mtk_widevine_drm_l3_support]: [1]
+[ro.mtk_cmcc_ft_precheck_support]: [1]
+[bgw.current3gband]: [0]
+[drm.service.enabled]: [true]
+[mtk.vdec.waitkeyframeforplay]: [1]
+[wfd.dummy.enable]: [1]
+[wfd.iframesize.level]: [0]
+[init.svc.fp]: [running]
+[init.svc.pq]: [running]
+[init.svc.sn]: [running]
+[init.svc.drm]: [running]
+[init.svc.adbd]: [running]
+[init.svc.lmkd]: [running]
+[init.svc.logd]: [running]
+[init.svc.mnld]: [running]
+[init.svc.netd]: [running]
+[init.svc.slpd]: [running]
+[init.svc.vold]: [running]
+[init.svc.agpsd]: [running]
+[init.svc.media]: [running]
+[init.svc.zygote]: [running]
+[init.svc.ged_srv]: [running]
+[init.svc.healthd]: [running]
+[init.svc.netdiag]: [running]
+[init.svc.statusd]: [running]
+[init.svc.thermal]: [running]
+[init.svc.ueventd]: [running]
+[init.svc.PPLAgent]: [running]
+[init.svc.bootanim]: [stopped]
+[init.svc.ccci_fsd]: [running]
+[init.svc.cts_prop]: [stopped]
+[init.svc.epdg_wod]: [running]
+[init.svc.installd]: [running]
+[init.svc.keystore]: [running]
+[init.svc.mediadrm]: [running]
+[init.svc.msensord]: [stopped]
+[init.svc.thermald]: [running]
+[init.svc.volte_ua]: [running]
+[init.svc.cmddumper]: [running]
+[init.svc.debuggerd]: [running]
+[init.svc.ril-proxy]: [running]
+[init.svc.vtservice]: [running]
+[init.svc.wifi2agps]: [running]
+[init.svc.NvRAMAgent]: [running]
+[init.svc.emdlogger1]: [running]
+[init.svc.enableswap]: [stopped]
+[init.svc.fuelgauged]: [running]
+[init.svc.mal-daemon]: [running]
+[init.svc.md_monitor]: [running]
+[init.svc.mediacodec]: [running]
+[init.svc.terservice]: [stopped]
+[init.svc.volte_imcb]: [running]
+[init.svc.wmt_loader]: [stopped]
+[init.svc.audioserver]: [running]
+[init.svc.bsplogstart]: [stopped]
+[init.svc.ccci_mdinit]: [running]
+[init.svc.debuggerd64]: [running]
+[init.svc.fingerprind]: [running]
+[init.svc.gatekeeperd]: [running]
+[init.svc.gsm0710muxd]: [running]
+[init.svc.logd-reinit]: [stopped]
+[init.svc.start_modem]: [stopped]
+[init.svc.teei_daemon]: [running]
+[init.svc.volte_stack]: [running]
+[init.svc.cameraserver]: [running]
+[init.svc.mobile_log_d]: [running]
+[init.svc.nvram_daemon]: [stopped]
+[init.svc.wmt_launcher]: [running]
+[init.svc.onlinemonitor]: [stopped]
+[init.svc.sysenv_daemon]: [running]
+[init.svc.trace_buf_off]: [stopped]
+[init.svc.batterywarning]: [running]
+[init.svc.flash_recovery]: [stopped]
+[init.svc.mediaextractor]: [running]
+[init.svc.p2p_supplicant]: [stopped]
+[init.svc.program_binary]: [running]
+[init.svc.ril-daemon-mtk]: [running]
+[init.svc.servicemanager]: [running]
+[init.svc.surfaceflinger]: [running]
+[init.svc.MtkCodecService]: [running]
+[init.svc.bootlogoupdater]: [stopped]
+[init.svc.thermal_manager]: [stopped]
+[init.svc.zygote_secondary]: [running]
+[qemu.hw.mainkeys]: [1]
+[rild.libargs]: [-d /dev/ttyC0]
+[rild.libpath]: [mtk-ril.so]
+[rild.mark_switchuser]: [0]
+[wifi.direct.interface]: [p2p0]
+[wifi.interface]: [wlan0]
+[wifi.tethering.interface]: [ap0]
+[soter.encrypt.state]: [OK]
+[camera.disable_zsl_mode]: [1]
+[viatel.device.at]: [sdio.4.ttySDIO]
+[viatel.device.at2]: [sdio.6.ttySDIO]
+[viatel.device.at3]: [sdio.7.ttySDIO]
+[viatel.device.at4]: [sdio.15.ttySDIO]
+[viatel.device.at5]: [sdio.16.ttySDIO]
+[viatel.device.at6]: [sdio.17.ttySDIO]
+[viatel.device.at7]: [sdio.18.ttySDIO]
+[viatel.device.at8]: [sdio.19.ttySDIO]
+[viatel.device.ets]: [sdio.2.ttySDIO]
+[viatel.device.fls]: [sdio.3.ttySDIO]
+[viatel.device.gps]: [sdio.5.ttySDIO]
+[viatel.device.pcv]: [sdio.0.ttySDIO]
+[viatel.device.asci]: [uart.4.ttyMT]
+[viatel.device.data]: [sdio.1.ttySDIO]
+[viatel.device.excp.msg]: [sdio.11.ttySDIO]
+[viatel.device.excp.data]: [sdio.12.ttySDIO]
+[fmradio.driver.enable]: [1]
+[persist.mtk.connsys.poweron.ctl]: [0]
+[persist.mtk.datashaping.support]: [1]
+[persist.meta.dumpdata]: [0]
+[persist.datashaping.alarmgroup]: [1]
+[persist.runningbooster.support]: [1]
+[persist.runningbooster.upgrade]: [1]
+[persist.mtk_nlp_switch_support]: [1]
+[telephony.lteOnCdmaDevice]: [1]
+[selinux.reload_policy]: [1]
+[persist.logd.size]: []
+[security.perf_harden]: [1]
+[log.tag]: [M]
+[log.tag.WifiHW]: [W]
+[persist.log.tag.AT]: [I]
+[persist.log.tag.RILC]: [I]
+[persist.log.tag.C2K_AT]: [I]
+[persist.log.tag.RILC-RP]: [I]
+[persist.log.tag.RILMUXD]: [I]
+[persist.log.tag.RfxRoot]: [I]
+[persist.log.tag.C2K_RILC]: [I]
+[persist.log.tag.RIL-DATA]: [I]
+[persist.log.tag.RILC-MTK]: [I]
+[persist.log.tag.LIBC2K_RIL]: [I]
+[persist.log.tag.C2K_ATConfig]: [I]
+[persist.log.tag.RfxController]: [I]
+[persist.log.tag.RfxMainThread]: [I]
+[persist.log.tag.RfxRilAdapter]: [I]
+[debug.MB.prdebug]: [1]
+[debug.MB.running]: [1]
+[debug.MB.realpath]: [/storage/emulated/0/mtklog/mobilelog/APLog_2017_0920_145735/]
+[debug.hwc.bq_count]: [4]
+[debug.hwc.compose_level]: [0]
+[debug.hwui.render_dirty_regions]: [false]
+[debug.atrace.tags.enableflags]: [0]
+[debug.force_rtl]: [0]
+[persist.service.bdroid.bdaddr]: [22:22:12:53:05:a3]
+[sys.usb.ffs.ready]: [1]
+[ro.runtime.firstboot]: [1505889874234]
+[dev.bootcomplete]: [1]
+[net.bt.name]: [Android]
+[net.ims.volte.pid]: [1598]
+[net.tcp.default_init_rwnd]: [60]
+[net.perf.rps.default]: [ff]
+[net.perf.tether.cpu.core]: [4,4,0,0]
+[net.perf.tether.cpu.freq]: [1144000,1144000,0,0]
+[net.perf.tether.rps]: [0f]
+[net.perf.internal.cpu.core]: [2,2,0,0]
+[net.perf.internal.cpu.freq]: [819000,819000,0,0]
+[net.change]: [net.cdma.via.service.state]
+[net.hostname]: [android-63d3bd2fa9614c]
+[net.nsiot_pending]: [false]
+[net.qtaguid_enabled]: [1]
+[sys.ipo.pwrdncap]: [2]
+[sys.usb.vid]: [0E8D]
+[sys.usb.state]: [mtp,adb]
+[sys.boot.reason]: [0]
+[sys.ipowin.done]: [1]
+[sys.sysctl.extra_free_kbytes]: [10800]
+[sys.sysctl.tcp_def_init_rwnd]: [60]
+[sys.boot_completed]: [1]
+[sys.lowstorage_flag]: [0]
+[sys.oem_unlock_allowed]: [0]
+[wlan.wfd.security.image]: [1]
+[wlan.driver.status]: [unloaded]
+[persist.sys.dm]: [0]
+[persist.sys.pq.adl.idx]: [0]
+[persist.sys.pq.iso.shp.en]: [1]
+[persist.sys.pq.log.en]: [0]
+[persist.sys.pq.mdp.color.dbg]: [1]
+[persist.sys.pq.mdp.color.idx]: [0]
+[persist.sys.pq.shp.idx]: [2]
+[persist.sys.pq.ultrares.en]: [1]
+[persist.sys.sd.defaultpath]: [/storage/emulated/0]
+[persist.sys.sw.idh.nums]: [0]
+[persist.sys.sw.key.mod]: [1]
+[persist.sys.sw.key.nav_dir]: [UDLR]
+[persist.sys.sw.key.screenoff]: [1]
+[persist.sys.sw.pix.area]: [60]
+[persist.sys.sw.vdd]: [2.8]
+[persist.sys.sw.light.mod]: [0]
+[persist.sys.sw.light.devs]: [/dev/input/event2]
+[persist.sys.sw.light.uevet]: [leds-mt65xx/leds/lcd-backlight]
+[persist.sys.sw.speed.max]: [6000]
+[persist.sys.sw.touch.para.c]: [0x0c]
+[persist.sys.sw.touch.para.r]: [0x06]
+[persist.sys.sw.touch.level]: [0x18]
+[persist.sys.sw.enroll.frm.num]: [0]
+[persist.sys.sw.enroll.double]: [100]
+[persist.sys.sw.enroll.quality]: [30]
+[persist.sys.sw.verify.retry]: [10]
+[persist.sys.sw.transsion.f14]: [0]
+[persist.sys.ui.hw]: [false]
+[persist.sys.ui.theme.icon.path]: [system/lib/uitechno/icon]
+[persist.sys.ui.theme.path]: [system/lib/uitechno/defaulttheme]
+[persist.sys.ui.theme.enable]: [true]
+[persist.sys.dmp.music.online]: [1]
+[persist.sys.usb.config]: [mtp,adb]
+[persist.sys.mute.state]: [2]
+[persist.sys.bdaddr]: [00166D586643]
+[persist.sys.bdpath]: [00:16:6D:58:66:43]
+[persist.sys.dalvik.vm.lib.2]: [libart.so]
+[persist.sys.locale]: [zh-CN]
+[persist.sys.webview.vmsize]: [128652592]
+[persist.sys.timezone]: [Asia/Shanghai]
+[persist.sys.wifi_mac]: [00166D036539]
+[persist.sys.bugreport.enable]: [0]
+[persist.sys.strictmode.visual]: []
+[persist.sys.fangdaomode]: [0]
+[persist.sys.profiler_ms]: [0]
+[persist.sys.wlanAutoJoin]: [1]
+[persist.sys.first_time_boot]: [false]
+[persist.ivvi.sys.target]: [00]
+[persist.ivvi.sys.country]: [CN]
+[persist.ivvi.sys.facilityid]: [615]
+[persist.ivvi.sys.factoryflag]: [F]
+[persist.ovvi.flash.mode]: [0]
+[persist.yulong.log.level]: [YVV7]
+[persist.yulong.comm.runmode]: [0000]
+[persist.yulong.called]: [0]
+[persist.yulong.monkey]: [0]
+[persist.yulong.ctstest]: [0]
+[persist.yulong.seccenter.script]: [1]
+[persist.yulong.defaultmode]: [0]
+[persist.yulong.fpModuleName]: [sunwave-SW9251: jinlong]
+[persist.service.acm.enable]: [0]
+[persist.service.stk.shutdown]: [0]
+[service.bootanim.exit]: [1]
+[gsm.gcf.testmode]: [0]
+[gsm.lte.ca.support]: [0]
+[gsm.ril.sst.mccmnc]: [46000]
+[gsm.ril.ct3g]: [0]
+[gsm.ril.ct3g.2]: [0]
+[gsm.ril.init]: [1]
+[gsm.ril.eboot]: [-1]
+[gsm.ril.uicctype]: []
+[gsm.ril.uicctype.2]: []
+[gsm.ril.cardtypeset]: []
+[gsm.ril.cardtypeset.2]: []
+[gsm.ril.ct3groaming]: []
+[gsm.ril.ct3groaming2]: []
+[gsm.ril.fulluicctype]: []
+[gsm.ril.fulluicctype.2]: []
+[gsm.sim.ril.mcc.mnc]: []
+[gsm.sim.ril.mcc.mnc.2]: []
+[gsm.sim.ril.testsim]: [0]
+[gsm.sim.ril.phbready]: [false]
+[gsm.sim.ril.phbready.2]: []
+[gsm.sim.retry.pin1]: []
+[gsm.sim.retry.pin1.2]: []
+[gsm.sim.retry.pin2]: []
+[gsm.sim.retry.pin2.2]: []
+[gsm.sim.retry.puk1]: []
+[gsm.sim.retry.puk1.2]: []
+[gsm.sim.retry.puk2]: []
+[gsm.sim.retry.puk2.2]: []
+[gsm.sim.state]: [ABSENT,ABSENT]
+[gsm.sim.operator.imsi]: []
+[gsm.sim.operator.alpha]: []
+[gsm.sim.operator.numeric]: []
+[gsm.sim.operator.iso-country]: []
+[gsm.sim.operator.default-name]: []
+[gsm.nitz.time]: [1505889867230]
+[gsm.serial]: []
+[gsm.current.phone-type]: [1,1]
+[gsm.network.type]: [Unknown,Unknown]
+[gsm.poweron.cfu.query.0]: [0]
+[gsm.project.baseband]: [YL6737M_65_O_N_HW(LTG_DSDS)]
+[gsm.project.baseband.2]: [YL6737M_65_O_N_HW(LTG_DSDS)]
+[gsm.version.baseband]: [MOLY.LR9.W1444.MD.LWTG.MP.V110.5.P16, 2017/07/25 13:45]
+[gsm.version.ril-impl]: [android reference-ril 1.0]
+[gsm.version.baseband1]: [MOLY.LR9.W1444.MD.LWTG.MP.V110.5.P16, 2017/07/25 13:45]
+[gsm.baseband.capability]: [507]
+[gsm.operator.alpha]: []
+[gsm.operator.alpha.2]: []
+[gsm.operator.numeric]: []
+[gsm.operator.isroaming]: [false,false]
+[gsm.operator.iso-country]: []
+[gsm.defaultpdpcontext.active]: [true]
+[ril.ef.ecc.support]: [1]
+[ril.fd.mode]: [1]
+[ril.ia.iccid]: []
+[ril.ia.network]: [cmnet.mnc000.mcc460.gprs]
+[ril.ipo.radiooff]: [0]
+[ril.ipo.radiooff.2]: [0]
+[ril.mal.flag]: [0]
+[ril.mal.socket]: [rilproxy-mal]
+[ril.pdn.reuse]: [1]
+[ril.pid.1]: [708]
+[ril.uim.subscriberid.1]: [N/A]
+[ril.uim.subscriberid.2]: [N/A]
+[ril.cdma.card.omh]: [-1]
+[ril.cdma.card.type.1]: []
+[ril.cdma.card.type.2]: []
+[ril.cdma.emdstatus.send]: [1]
+[ril.cdma.emdstatus.protocol]: [1,-1]
+[ril.cdma.switching]: [0]
+[ril.data.mal]: [0]
+[ril.imsi.status.sim1]: [0]
+[ril.imsi.status.sim2]: [0]
+[ril.read.imsi]: [1]
+[ril.first.md]: [1]
+[ril.iccid.sim1]: [N/A]
+[ril.iccid.sim2]: [N/A]
+[ril.radio.ia]: []
+[ril.radio.ia-apn]: []
+[ril.ready.sim]: [true]
+[ril.attach.sim]: [-1]
+[ril.phone1.mapped.md]: [MD1]
+[ril.phone2.mapped.md]: [MD1]
+[ril.switch.modem.cause.type]: [255]
+[ril.switch.modem.delay.info]: [ "46000",0,64]
+[ril.c2kirat.ia]: [89860053191787436948,]
+[ril.ecclist]: []
+[ril.ecclist1]: []
+[ril.external.md]: [0]
+[ril.radiooff.poweroffMD]: [0]
+[ril.rilproxy]: [1]
+[ril.specific.sm_cause]: [0]
+[ril.telephony.mode]: [0]
+[ril.flightmode.poweroffMD]: [0]
+[persist.radio.ct.ir.engmode]: [0]
+[persist.radio.fd.r8.counter]: [150]
+[persist.radio.fd.off.r8.counter]: [50]
+[persist.radio.fd.off.counter]: [50]
+[persist.radio.fd.counter]: [150]
+[persist.radio.ia]: []
+[persist.radio.re.ia.flag]: [0]
+[persist.radio.re.ia-apn]: []
+[persist.radio.ut.cfu.mode]: [disabled_ut_cfu_mode,disabled_ut_cfu_mode]
+[persist.radio.cfu.iccid.0]: [89860053191787436948]
+[persist.radio.cfu.iccid.1]: [89860043191748218040]
+[persist.radio.cfu.change.0]: [0]
+[persist.radio.cfu.change.1]: [0]
+[persist.radio.cfu.timeslot.0]: []
+[persist.radio.cfu.timeslot.1]: []
+[persist.radio.new.sim.slot]: []
+[persist.radio.sim.status]: []
+[persist.radio.data.iccid]: [89860053191787436948]
+[persist.radio.need.wait.imsi]: [false]
+[persist.radio.ia-apn]: []
+[persist.radio.mobile.data]: [0,0]
+[persist.radio.unlock]: [false]
+[persist.radio.default.sim]: [0]
+[persist.radio.airplane.mode.on]: [false]
+[persist.radio.cdma_slot]: [1]
+[persist.radio.flashless.fsm]: [0]
+[persist.radio.flashless.fsm_rw]: [1]
+[persist.radio.flashless.fsm_cst]: [1]
+[persist.radio.simswitch]: [1]
+[persist.radio.simswitch.iccid]: [89860053191787436948]
+[persist.radio.svlte_slot]: [2,2]
+[persist.radio.ia-pwd-flag]: [0]
+[persist.radio.mtk_ps2_rat]: [G]
+[persist.radio.mtk_ps3_rat]: [G]
+[persist.radio.rilj_nw_type1]: [9]
+[persist.radio.rilj_nw_type2]: [9]
+[persist.radio.terminal-based.cw]: [enabled_tbcw_on,enabled_tbcw_on]
+[persist.radio.last_iccid_sim1]: [89860053191787436948]
+[persist.radio.last_iccid_sim2]: [N/A]
+[persist.radio.reset_on_switch]: [false]
+[sys.usb.config]: [mtp,adb]
+[sys.usb.configfs]: [0]
+[net.cdma.via.card.state]: [locked_or_absent]
+[net.cdma.via.service.state]: [out of service]
+[net.cdma.boottimes]: [1]
+[net.dns1]: [202.96.134.133]
+[net.dns2]: [202.96.128.86]
+[net.dns3]: []
+================ END of FILE ===============
+

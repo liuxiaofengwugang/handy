@@ -1,0 +1,1364 @@
+----- timezone:GMT
+[ATF](0)[0.0]ATF log service is registered (0x5e6c0000, aee:0x5e6fc000)
+[ATF](0)[0.0]BL3-1: v1.0(debug):
+[ATF](0)[0.0]BL3-1: Built : 11:32:07, Aug  3 2017
+INFO:    BL3-1: Initializing runtime services
+[ATF](0)[0.0][BL31] Jump to secure OS for initialization!
+[ATF](0)[0.0][ATF--uTos] version [BS.mt6755.D.2.2.1]
+[ATF](0)[0.0]  mtee ST [0]
+INFO:    BL3-1: Preparing for EL3 exit to normal world, LK
+INFO:    BL3-1: Next image address = 0x41e00000
+INFO:    BL3-1: Next image spsr = 0x1d3
+[ATF](0)[0.0][BL31] Final dump!
+[ATF](0)[0.0][BL31] SHOULD not dump in UART but in log buffer!
+[ATF](0)[0.0]save kernel info
+[ATF](0)[0.0]Kernel_EL2
+[ATF](0)[0.0]Kernel is 64Bit
+[ATF](0)[0.0]pc=0x40080000, r0=0x4e000000, r1=0x0
+INFO:    BL3-1: Preparing for EL3 exit to normal world, Kernel
+INFO:    BL3-1: Next image address = 0x40080000
+INFO:    BL3-1: Next image spsr = 0x3c9
+[ATF](0)[0.0]el3_exit
+[ATF](0)[0.81358]mt_on_0, entry 0
+[ATF](0)[0.82137]mt_on_0, entry 0
+[ATF](2)[0.82874]mt_on_0, entry 0
+[ATF](3)[0.153520]MTK_SIP_KERNEL_WDT : 0xffffffc000755b5c 
+[ATF](3)[0.153570]teearg->atf_aee_debug_buf_start : 0x5e6fc000 
+[ATF](3)[1.791498][DAPC] Walk TEE
+[ATF](3)[1.791962][DAPC] d0-0=0x2010000
+[ATF](3)[1.791991][DAPC] d0-1=0x400000
+[ATF](3)[1.792018][DAPC] d0-2=0x10
+[ATF](3)[1.792042][DAPC] d0-3=0x0
+[ATF](3)[1.792066][DAPC] d0-4=0x0
+[ATF](3)[1.792091][DAPC] d0-5=0x0
+[ATF](3)[1.792115][DAPC] d0-6=0x0
+[ATF](3)[1.792139][DAPC] d0-7=0x0
+[ATF](3)[1.792163][DAPC] d1-0=0x3f0fcfc0
+[ATF](3)[1.792193][DAPC] d1-1=0xf0ff03cf
+[ATF](3)[1.792221][DAPC] d1-2=0xff3000ff
+[ATF](3)[1.792250][DAPC] d1-3=0xfff0fcf
+[ATF](3)[1.792278][DAPC] d1-4=0xfffff3fc
+[ATF](3)[1.792307][DAPC] d1-5=0xffffffff
+[ATF](3)[1.792337][DAPC] d1-6=0xffffffff
+[ATF](3)[1.792367][DAPC] d1-7=0xfff
+[ATF](3)[1.792394][DAPC] ATF Init Done
+[ATF](3)[2.16247]max_phys_off_afflvl = 0
+[ATF](3)[2.16321]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[2.16598]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[2.819429]max_phys_off_afflvl = 0
+[ATF](2)[2.819472]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[2.819659]psci_cpu_off: call psci_power_down_wfi()
+[ATF](1)[2.821271]max_phys_off_afflvl = 0
+[ATF](1)[2.821313]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[2.821498]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[2.922598]mt_on_0, entry 0
+[ATF](0)[5.801684]mt_on_0, entry 0
+[ATF](2)[6.609656]max_phys_off_afflvl = 0
+[ATF](2)[6.609698]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[6.609878]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[6.711149]mt_on_0, entry 0
+[ATF](0)[6.712098]mt_on_0, entry 0
+[ATF](3)[8.571043]max_phys_off_afflvl = 0
+[ATF](3)[8.571043]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[8.571349]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[9.373547]max_phys_off_afflvl = 0
+[ATF](2)[9.373592]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[9.373779]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[17.680772]mt_on_0, entry 0
+[ATF](0)[17.681727]mt_on_0, entry 0
+[ATF](3)[26.492359]max_phys_off_afflvl = 0
+[ATF](3)[26.492531]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[26.492801]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[28.95346]mt_on_0, entry 0
+[ATF](3)[32.201263]max_phys_off_afflvl = 0
+[ATF](3)[32.201329]psci_afs_off_afflvl = 0
+[ATF](3)[32.201511]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[33.5210]max_phys_off_afflvl = 0
+[ATF](2)[33.5268]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[33.5520]psci_cpu_off: call psci_power_down_wfi()
+[ATF](1)[35.511365]max_phys_off_afflvl = 0
+[ATF](1)[35.511453]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[35.511807]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[38.319891]mt_on_0, entry 0
+[ATF](0)[38.821529]mt_on_0, entry 0
+[ATF](1)[38.822732]mt_on_0, entry 0
+[ATF](3)[42.828023]max_phys_off_afflvl = 0
+[ATF](3)[42.828064]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[42.828247]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[43.631019]max_phys_off_afflvl = 0
+[ATF](2)[43.631061]psci_aff_off_afflvl = 0
+[ATF](2)[43.631188]psci_cpu_off: call psci_power_down_wfi()
+[ATF](1)[43.732731]mt_on_0, entry 0
+[ATF](0)[43.733698]mt_on_0, entry 0
+[ATF](3)[95.491183]max_phys_off_afflvl = 0
+[ATF](3)[95.491252]psci_hys_off_afflvl = 0
+[ATF](3)[95.491427]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[96.295460]max_phys_off_afflvl = 0
+[ATF](2)[96.295521]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[96.295786]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[96.398111]mt_on_0, entry 0
+[ATF](0)[96.699904]mt_on_0, entry 0
+[ATF](1)[100.969786]max_phys_off_afflvl = 0
+[ATF](1)[100.969846]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[100.970105]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[100.973425]max_phys_off_afflvl = 0
+[ATF](2)[100.973481]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[100.973741]psci_cpu_off: call psci_power_down_wfi()
+[ATF](3)[100.976589]max_phys_off_afflvl = 0
+[ATF](3)[100.976644]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[100.976894]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[101.247554]mt_on_0, entry 0
+[ATF](0)[101.248642]mt_on_0, entry 0
+[ATF](0)[101.249690]mt_on_0, entry 0
+[ATF](1)[101.647969]max_phys_off_afflvl = 0
+[ATF](1)[101.648032]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[101.648301]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[101.650982]max_phys_off_afflvl = 0
+[ATF](2)[101.651038]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[101.651300]psci_cpu_off: call psci_power_down_wfi()
+[ATF](3)[101.653655]max_phys_off_afflvl = 0
+[ATF](3)[101.653711]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[101.653983]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[101.657827]mt_on_0, entry 0
+[ATF](0)[101.658909]mt_on_0, entry 0
+[ATF](0)[101.659877]mt_on_0, entry 0
+[ATF](1)[102.900117]max_phys_off_afflvl = 0
+[ATF](1)[102.900178]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[102.900439]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[102.903350]max_phys_off_afflvl = 0
+[ATF](2)[102.903406]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[102.903666]psci_cpu_off: call psci_power_down_wfi()
+[ATF](3)[102.906391]max_phys_off_afflvl = 0
+[ATF](3)[102.906444]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[102.906705]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[102.911027]mt_on_0, entry 0
+[ATF](0)[102.912107]mt_on_0, entry 0
+[ATF](0)[102.913101]mt_on_0, entry 0
+[ATF](1)[104.142176]max_phys_off_afflvl = 0
+[ATF](1)[104.142235]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[104.142494]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[104.145575]max_phys_off_afflvl = 0
+[ATF](2)[104.145632]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[104.145896]psci_cpu_off: call psci_power_down_wfi()
+[ATF](3)[104.148739]max_phys_off_afflvl = 0
+[ATF](3)[104.148797]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[104.149068]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[104.153286]mt_on_0, entry 0
+[ATF](0)[104.154376]mt_on_0, entry 0
+[ATF](0)[104.155359]mt_on_0, entry 0
+[ATF](3)[104.587468]max_phys_off_afflvl = 0
+[ATF](3)[104.587526]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[104.587785]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[104.990244]mt_on_0, entry 0
+[ATF](3)[107.997134]max_phys_off_afflvl = 0
+[ATF](3)[107.997194]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[107.997134]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[108.400327]mt_on_0, entry 0
+[ATF](3)[111.306967]max_phys_off_afflvl = 0
+[ATF](3)[111.307028]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[111.307967]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[111.609779]mt_on_0, entry 0
+[ATF](3)[114.616595]max_phys_off_afflvl = 0
+[ATF](3)[114.616595]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[114.616933]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[115.19621]mt_on_0, entry 0
+[ATF](3)[117.926534]max_phys_off_afflvl = 0
+[ATF](3)[117.926594]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[117.926912]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[118.129200]mt_on_0, entry 0
+[ATF](3)[121.234668]max_phys_off_afflvl = 0
+[ATF](3)[121.234710]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[121.234898]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[121.436763]mt_on_0, entry 0
+[ATF](3)[124.41368]max_phys_off_afflvl = 0
+[ATF](3)[124.41410]psci_afflvl0_off: l = 0
+[ATF](3)[124.41538]psci_cpu_off: call psci_power_down_wfi()
+[ATF](1)[124.143077]mt_on_0, entry 0
+[ATF](3)[130.952070]max_phys_off_afflvl = 0
+[ATF](3)[130.952117]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[130.952345]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[131.154285]mt_on_0, entry 0
+[ATF](3)[178.504015]max_phys_off_afflvl = 0
+[ATF](3)[178.504056]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[178.504237]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[178.606110]mt_on_0, entry 0
+[ATF](3)[185.414761]max_phys_off_afflvl = 0
+[ATF](3)[185.414805]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[185.414999]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[185.516798]mt_on_0, entry 0
+[ATF](3)[188.221291]max_phys_off_afflvl = 0
+[ATF](3)[188.221333]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[188.221523]psci_cpu_off_afflvl = 0
+[ATF](0)[188.323131]mt_on_0, entry 0
+[ATF](1)[221.615016]max_phys_off_afflvl = 0
+[ATF](1)[221.615073]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[221.615333]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[221.618852]max_phys_off_afflvl = 0
+[ATF](2)[221.618908]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[221.619170]psci_cpu_off: call psci_power_down_wfi()
+[ATF](3)[221.622250]max_phys_off_afflvl = 0
+[ATF](3)[221.622301]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[221.622562]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[221.627005]mt_on_0, entry 0
+[ATF](0)[221.628228]mt_on_0, entry 0
+[ATF](0)[221.629259]mt_on_0, entry 0
+[ATF](1)[223.56806]max_phys_off_afflvl = 0
+[ATF](1)[223.56862]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[223.57124]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[223.60347]max_phys_off_afflvl = 0
+[ATF](2)[223.60405]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[223.60662]psci_cpu_off: call psci_power_down_wfi()
+[ATF](3)[223.63600]max_phys_off_afflvl = 0
+[ATF](3)[223.63651]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[223.63906]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[223.68137]mt_on_0, entry 0
+[ATF](0)[223.69262]mt_on_0, entry 0
+[ATF](0)[223.70357]mt_on_0, entry 0
+[ATF](1)[225.878941]max_phys_off_afflvl = 0
+[ATF](1)[225.878999]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[225.879276]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[225.882391]max_phys_off_afflvl = 0
+[ATF](2)[225.882445]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[225.882704]psci_cpu_off: call psci_power_down_wfi()
+[ATF](3)[225.885652]max_phys_off_afflvl = 0
+[ATF](3)[225.885705]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[225.885968]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[225.890160]mt_on_0, entry 0
+[ATF](0)[225.891283]mt_on_0, entry 0
+[ATF](0)[225.892404]mt_on_0, entry 0
+[ATF](1)[226.441074]max_phys_off_afflvl = 0
+[ATF](1)[226.441131]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[226.441397]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[226.444340]max_phys_off_afflvl = 0
+[ATF](2)[226.444394]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[226.444670]psci_cpu_off: call psci_power_down_wfi()
+[ATF](3)[226.447157]max_phys_off_afflvl = 0
+[ATF](3)[226.447212]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[226.447490]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[226.451476]mt_on_0, entry 0
+[ATF](0)[226.452598]mt_on_0, entry 0
+[ATF](0)[226.453618]mt_on_0, entry 0
+[ATF](1)[227.863315]max_phys_off_afflvl = 0
+[ATF](1)[227.863373]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[227.863633]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[227.866701]max_phys_off_afflvl = 0
+[ATF](2)[227.866754]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[227.867018]psci_cpu_off: call psci_power_down_wfi()
+[ATF](3)[227.869909]max_phys_off_afflvl = 0
+[ATF](3)[227.869962]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[227.870236]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[227.874540]mt_on_0, entry 0
+[ATF](0)[227.875658]mt_on_0, entry 0
+[ATF](0)[227.876728]mt_on_0, entry 0
+[ATF](1)[229.535484]max_phys_off_afflvl = 0
+[ATF](1)[229.535544]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[229.535815]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[229.538978]max_phys_off_afflvl = 0
+[ATF](2)[229.539032]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[229.539290]psci_cpu_off: call psci_power_down_wfi()
+[ATF](3)[229.542077]max_phys_off_afflvl = 0
+[ATF](3)[229.542128]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[229.542390]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[229.546777]mt_on_0, entry 0
+[ATF](0)[229.547900]mt_on_0, entry 0
+[ATF](0)[229.548986]mt_on_0, entry 0
+[ATF](1)[233.537639]max_phys_off_afflvl = 0
+[ATF](1)[233.537699]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[233.537974]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[233.541213]max_phys_off_afflvl = 0
+[ATF](2)[233.541267]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[233.541527]psci_cpu_off: call psci_power_down_wfi()
+[ATF](3)[233.544458]max_phys_off_afflvl = 0
+[ATF](3)[233.544510]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[233.544775]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[233.549258]mt_on_0, entry 0
+[ATF](0)[233.550373]mt_on_0, entry 0
+[ATF](0)[233.551472]mt_on_0, entry 0
+[ATF](1)[234.959862]max_phys_off_afflvl = 0
+[ATF](1)[234.959918]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[234.960177]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[234.963221]max_phys_off_afflvl = 0
+[ATF](2)[234.963275]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[234.963539]psci_cpu_off: call psci_power_down_wfi()
+[ATF](3)[234.966409]max_phys_off_afflvl = 0
+[ATF](3)[234.966462]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[234.966736]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[234.970926]mt_on_0, entry 0
+[ATF](0)[234.972037]mt_on_0, entry 0
+[ATF](0)[234.973054]mt_on_0, entry 0
+[ATF](1)[236.351988]max_phys_off_afflvl = 0
+[ATF](1)[236.352046]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[236.352309]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[236.355329]max_phys_off_afflvl = 0
+[ATF](2)[236.355381]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[236.355641]psci_cpu_off: call psci_power_down_wfi()
+[ATF](3)[236.358505]max_phys_off_afflvl = 0
+[ATF](3)[236.358557]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[236.358822]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[236.363088]mt_on_0, entry 0
+[ATF](0)[236.364218]mt_on_0, entry 0
+[ATF](0)[236.365305]mt_on_0, entry 0
+[ATF](1)[236.704067]max_phys_off_afflvl = 0
+[ATF](1)[236.704124]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[236.704385]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[236.707150]max_phys_off_afflvl = 0
+[ATF](2)[236.707202]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[236.707463]psci_cpu_off: call psci_power_down_wfi()
+[ATF](3)[236.710115]max_phys_off_afflvl = 0
+[ATF](3)[236.710166]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[236.710426]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[236.714454]mt_on_0, entry 0
+[ATF](0)[236.715587]mt_on_0, entry 0
+[ATF](0)[236.716619]mt_on_0, entry 0
+[ATF](1)[237.116111]max_phys_off_afflvl = 0
+[ATF](1)[237.116169]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[237.116435]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[237.119199]max_phys_off_afflvl = 0
+[ATF](2)[237.119253]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[237.119530]psci_cpu_off: call psci_power_down_wfi()
+[ATF](3)[237.122116]max_phys_off_afflvl = 0
+[ATF](3)[237.122169]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[237.122445]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[237.126368]mt_on_0, entry 0
+[ATF](0)[237.127479]mt_on_0, entry 0
+[ATF](0)[237.128496]mt_on_0, entry 0
+[ATF](1)[238.828295]max_phys_off_afflvl = 0
+[ATF](1)[238.828352]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[238.828615]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[238.831775]max_phys_off_afflvl = 0
+[ATF](2)[238.831831]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[238.832104]psci_cpu_off: call psci_power_down_wfi()
+[ATF](3)[238.834948]max_phys_off_afflvl = 0
+[ATF](3)[238.835001]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[238.835264]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[238.839590]mt_on_0, entry 0
+[ATF](0)[238.840708]mt_on_0, entry 0
+[ATF](0)[238.841824]mt_on_0, entry 0
+[ATF](1)[239.260487]max_phys_off_afflvl = 0
+[ATF](1)[239.260547]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[239.260813]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[239.263901]max_phys_off_afflvl = 0
+[ATF](2)[239.263955]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[239.264214]psci_cpu_off: call psci_power_down_wfi()
+[ATF](3)[239.267019]max_phys_off_afflvl = 0
+[ATF](3)[239.267071]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[239.267332]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[239.271495]mt_on_0, entry 0
+[ATF](0)[239.272631]mt_on_0, entry 0
+[ATF](0)[239.273648]mt_on_0, entry 0
+[ATF](1)[240.562589]max_phys_off_afflvl = 0
+[ATF](1)[240.562650]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[240.562923]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[240.565887]max_phys_off_afflvl = 0
+[ATF](2)[240.565941]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[240.566201]psci_cpu_off: call psci_power_down_wfi()
+[ATF](3)[240.569077]max_phys_off_afflvl = 0
+[ATF](3)[240.569129]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[240.569389]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[240.573628]mt_on_0, entry 0
+[ATF](0)[240.574758]mt_on_0, entry 0
+[ATF](0)[240.575787]mt_on_0, entry 0
+[ATF](1)[242.474732]max_phys_off_afflvl = 0
+[ATF](1)[242.474789]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[242.475050]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[242.478133]max_phys_off_afflvl = 0
+[ATF](2)[242.478187]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[242.478456]psci_cpu_off: call psci_power_down_wfi()
+[ATF](3)[242.481283]max_phys_off_afflvl = 0
+[ATF](3)[242.481337]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[242.481611]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[242.485929]mt_on_0, entry 0
+[ATF](0)[242.487064]mt_on_0, entry 0
+[ATF](0)[242.488191]mt_on_0, entry 0
+[ATF](3)[311.107010]max_phys_off_afflvl = 0
+[ATF](3)[311.107057]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[311.107252]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[311.309137]mt_on_0, entry 0
+[ATF](3)[313.114460]max_phys_off_afflvl = 0
+[ATF](3)[313.114539]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[313.114835]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[313.719185]mt_on_0, entry 0
+[ATF](3)[321.429056]max_phys_off_afflvl = 0
+[ATF](3)[321.429098]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[321.429286]psci_cpu_off: calll = 0
+[ATF](0)[321.931365]mt_on_0, entry 0
+[ATF](3)[322.834197]max_phys_off_afflvl = 0
+[ATF](3)[322.834238]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[322.834432]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[323.36078]mt_on_0, entry 0
+[ATF](3)[324.41744]max_phys_off_afflvl = 0
+[ATF](3)[324.41827]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[324.42144]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[324.545625]mt_on_0, entry 0
+[ATF](3)[325.348409]max_phys_off_afflvl = 0
+[ATF](3)[325.348454]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[325.348645]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[325.550368]mt_on_0, entry 0
+[ATF](3)[326.553209]max_phys_off_afflvl = 0
+[ATF](3)[326.553254]max__afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[326.553450]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[326.955275]mt_on_0, entry 0
+[ATF](3)[327.758018]max_phys_off_afflvl = 0
+[ATF](3)[327.758064]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[327.758256]max__cpu_off: call psci_power_down_wfi()
+[ATF](0)[327.960027]mt_on_0, entry 0
+[ATF](3)[328.962866]max_phys_off_afflvl = 0
+[ATF](3)[328.962911]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[328.963101]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[329.364997]mt_on_0, entry 0
+[ATF](3)[331.469040]max_phys_off_afflvl = 0
+[ATF](3)[331.469087]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[331.469282]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[331.871350]mt_on_0, entry 0
+[ATF](3)[332.674048]max_phys_off_afflvl = 0
+[ATF](3)[332.674092]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[332.674280]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[332.876011]mt_on_0, entry 0
+[ATF](3)[333.878947]max_phys_off_afflvl = 0
+[ATF](3)[333.878990]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[333.879182]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[334.281075]mt_on_0, entry 0
+[ATF](3)[335.83687]max_phys_off_afflvl = 0
+[ATF](3)[335.83727]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[335.83906]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[335.185424]mt_on_0, entry 0
+[ATF](3)[336.388661]max_phys_off_afflvl = 0
+[ATF](3)[336.388703]psci_afflvlf_afflvl = 0
+[ATF](3)[336.388842]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[336.690707]mt_on_0, entry 0
+[ATF](3)[338.894750]max_phys_off_afflvl = 0
+[ATF](3)[338.894795]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[338.894985]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[339.296957]mt_on_0, entry 0
+[ATF](3)[340.99656]max_phys_off_afflvl = 0
+[ATF](3)[340.99695]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[340.99873]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[340.301625]mt_on_0, entry 0
+[ATF](3)[341.304459]max_phys_off_afflvl = 0
+[ATF](3)[341.304500]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[341.304686]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[341.606430]mt_on_0, entry 0
+[ATF](3)[343.810884]max_phys_off_afflvl = 0
+[ATF](3)[343.810937]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[343.811164]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[344.213542]mt_on_0, entry 0
+[ATF](3)[345.16270]max_phys_off_afflvl = 0
+[ATF](3)[345.16311]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[345.16497]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[345.218239]mt_on_0, entry 0
+[ATF](3)[346.321075]max_phys_off_afflvl = 0
+[ATF](3)[346.321115]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[346.321299]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[346.623114]mt_on_0, entry 0
+[ATF](3)[347.525828]max_phys_off_afflvl = 0
+[ATF](3)[347.525869]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[347.526053]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[347.627643]mt_on_0, entry 0
+[ATF](3)[348.730867]max_phys_off_afflvl = 0
+[ATF](3)[348.730914]psci_afs_off_afflvl = 0
+[ATF](3)[348.731050]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[349.133080]mt_on_0, entry 0
+[ATF](3)[349.935877]max_phys_off_afflvl = 0
+[ATF](3)[349.935924]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[349.936131]psci_cpu_off: cflvl = 0
+[ATF](0)[350.137882]mt_on_0, entry 0
+[ATF](3)[351.241669]max_phys_off_afflvl = 0
+[ATF](3)[351.241711]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[351.241898]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[351.643802]mt_on_0, entry 0
+[ATF](3)[352.446406]max_phys_off_afflvl = 0
+[ATF](3)[352.446449]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[352.446648]psci_cpu_off: call psci_power_down_wfi()
+[ATF](1)[352.648438]mt_on_0, entry 0
+[ATF](3)[353.851802]max_phys_off_afflvl = 0
+[ATF](3)[353.851866]psci_afflvl0_offlvl = 0
+[ATF](3)[353.852062]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[354.354486]mt_on_0, entry 0
+[ATF](3)[358.360561]max_phys_off_afflvl = 0
+[ATF](3)[358.360611]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[358.360837]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[358.763270]mt_on_0, entry 0
+[ATF](3)[361.168151]max_phys_off_afflvl = 0
+[ATF](3)[361.168206]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[361.168463]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[361.770965]mt_on_0, entry 0
+[ATF](3)[362.674560]max_phys_off_afflvl = 0
+[ATF](3)[362.674616]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[362.674871]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[362.977119]mt_on_0, entry 0
+[ATF](3)[364.181036]max_phys_off_afflvl = 0
+[ATF](3)[364.181092]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[364.181036]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[364.683966]mt_on_0, entry 0
+[ATF](3)[365.587692]max_phys_off_afflvl = 0
+[ATF](3)[365.587744]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[365.588000]psci_cpu_off_afflvl = 0
+[ATF](0)[365.890100]mt_on_0, entry 0
+[ATF](3)[367.94130]max_phys_off_afflvl = 0
+[ATF](3)[367.94190]psci_afflvl0_off: psci_do_pwrdoown_wfi()maintenance
+[ATF](3)[367.94451]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[367.596833]mt_on_0, entry 0
+[ATF](3)[368.500193]max_phys_off_afflvl = 0
+[ATF](3)[368.500250]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[368.500520]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[368.802759]mt_on_0, entry 0
+[ATF](3)[370.6700]max_phys_off_afflvl = 0
+[ATF](3)[370.6752]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[370.6993]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[370.509162]mt_on_0, entry 0
+[ATF](3)[371.412728]max_phys_off_afflvl = 0
+[ATF](3)[371.412786]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[371.413051]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[371.715143]mt_on_0, entry 0
+[ATF](3)[372.919291]max_phys_off_afflvl = 0
+[ATF](3)[372.919345]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[372.919605]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[373.421821]mt_on_0, entry 0
+[ATF](3)[374.325409]max_phys_off_afflvl = 0
+[ATF](3)[374.325463]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[374.325710]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[374.627946]mt_on_0, entry 0
+[ATF](3)[375.831963]max_phys_off_afflvl = 0
+[ATF](3)[375.832021]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[375.832281]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[376.334550]mt_on_0, entry 0
+[ATF](3)[377.238098]max_phys_off_afflvl = 0
+[ATF](3)[377.238154]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[377.238416]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[377.640711]mt_on_0, entry 0
+[ATF](3)[378.744622]max_phys_off_afflvl = 0
+[ATF](3)[378.744676]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[378.744924]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[379.347342]mt_on_0, entry 0
+[ATF](3)[380.250806]max_phys_off_afflvl = 0
+[ATF](3)[380.250863]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[380.251119]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[380.553231]mt_on_0, entry 0
+[ATF](3)[381.757445]max_phys_off_afflvl = 0
+[ATF](3)[381.757502]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[381.757765]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[382.260299]mt_on_0, entry 0
+[ATF](3)[383.163943]max_phys_off_afflvl = 0
+[ATF](3)[383.163997]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[383.164251]max_phys_off_afflvl = 0
+[ATF](0)[383.466285]mt_on_0, entry 0
+[ATF](3)[384.670112]max_phys_off_afflvl = 0
+[ATF](3)[384.670168]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[384.670428]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[385.172884]mt_on_0, entry 0
+[ATF](3)[386.76654]max_phys_off_afflvl = 0
+[ATF](3)[386.76710]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[386.76967]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[386.379164]mt_on_0, entry 0
+[ATF](3)[387.583233]max_phys_off_afflvl = 0
+[ATF](3)[387.583290]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[387.583547]psciphys_off_afflvl = 0
+[ATF](0)[388.85819]mt_on_0, entry 0
+[ATF](3)[388.989440]max_phys_off_afflvl = 0
+[ATF](3)[388.989502]psci_ays_off_afflvl = 0
+[ATF](3)[388.989679]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[389.291958]mt_on_0, entry 0
+[ATF](3)[390.496108]max_phys_off_afflvl = 0
+[ATF](3)[390.496165]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[390.496419]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[390.998736]mt_on_0, entry 0
+[ATF](3)[391.902304]max_phys_off_afflvl = 0
+[ATF](3)[391.902362]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[391.902624]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[392.204668]mt_on_0, entry 0
+[ATF](3)[393.408698]max_phys_off_afflvl = 0
+[ATF](3)[393.408752]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[393.409010]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[393.911472]mt_on_0, entry 0
+[ATF](3)[394.815124]max_phys_off_afflvl = 0
+[ATF](3)[394.815177]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[394.815429]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[395.117679]mt_on_0, entry 0
+[ATF](3)[396.321820]max_phys_off_afflvl = 0
+[ATF](3)[396.321876]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[396.322129]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[396.824547]mt_on_0, entry 0
+[ATF](3)[399.329244]max_phys_off_afflvl = 0
+[ATF](3)[399.329291]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[399.329493]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[399.731316]mt_on_0, entry 0
+[ATF](3)[400.934453]max_phys_off_afflvl = 0
+[ATF](3)[400.934496]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[400.934690]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[401.36414]mt_on_0, entry 0
+[ATF](3)[402.139273]max_phys_off_afflvl = 0
+[ATF](3)[402.139315]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[402.139500]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[402.541177]mt_on_0, entry 0
+[ATF](3)[404.845195]max_phys_off_afflvl = 0
+[ATF](3)[404.845239]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[404.845437]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[405.247369]mt_on_0, entry 0
+[ATF](3)[406.49929]max_phys_off_afflvl = 0
+[ATF](3)[406.49971]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[406.50159]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[406.251920]mt_on_0, entry 0
+[ATF](3)[407.355335]max_phys_off_afflvl = 0
+[ATF](3)[407.355383]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[407.355587]psci_cpu_off: call psci_power_down_wfi()
+[ATF](1)[407.757555]mt_on_0, entry 0
+[ATF](3)[408.861432]max_phys_off_afflvl = 0
+[ATF](3)[408.861492]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[408.861749]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[409.164015]mt_on_0, entry 0
+[ATF](3)[410.368047]max_phys_off_afflvl = 0
+[ATF](3)[410.368107]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[410.368358]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[411.170958]mt_on_0, entry 0
+[ATF](3)[412.174697]max_phys_off_afflvl = 0
+[ATF](3)[412.174755]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[412.175003]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[412.477231]mt_on_0, entry 0
+[ATF](3)[413.681080]max_phys_off_afflvl = 0
+[ATF](3)[413.681080]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[413.681419]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[414.83866]mt_on_0, entry 0
+[ATF](3)[416.688862]max_phys_off_afflvl = 0
+[ATF](3)[416.688926]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[416.689231]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[416.692340]max_phys_off_afflvl = 0
+[ATF](2)[416.692401]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[416.692661]psci_cpu_off: call psci_power_down_wfi()
+[ATF](1)[416.857578]max_phys_off_afflvl = 0
+[ATF](1)[416.857635]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[416.857895]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[417.127722]mt_on_0, entry 0
+[ATF](1)[417.152857]mt_on_0, entry 0
+[ATF](1)[417.154139]mt_on_0, entry 0
+[ATF](3)[418.264674]max_phys_off_afflvl = 0
+[ATF](3)[418.264729]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[418.264987]psci_cpu_off: call psci_power_down_wfi()
+[ATF](1)[418.583660]max_phys_off_afflvl = 0
+[ATF](1)[418.583717]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[418.583979]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[418.586872]max_phys_off_afflvl = 0
+[ATF](2)[418.586926]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[418.587204]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[418.591506]mt_on_0, entry 0
+[ATF](0)[418.592593]mt_on_0, entry 0
+[ATF](0)[418.617051]mt_on_0, entry 0
+[ATF](3)[419.71148]max_phys_off_afflvl = 0
+[ATF](3)[419.71206]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[419.71491]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[419.173604]mt_on_0, entry 0
+[ATF](1)[420.45912]max_phys_off_afflvl = 0
+[ATF](1)[420.45969]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[420.46241]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[420.49303]max_phys_off_afflvl = 0
+[ATF](2)[420.49356]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[420.49614]psci_cpu_off: call psci_power_down_wfi()
+[ATF](3)[420.52341]max_phys_off_afflvl = 0
+[ATF](3)[420.52392]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[420.52649]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[420.56901]mt_on_0, entry 0
+[ATF](0)[420.57990]mt_on_0, entry 0
+[ATF](0)[420.58971]mt_on_0, entry 0
+[ATF](1)[421.288031]max_phys_off_afflvl = 0
+[ATF](1)[421.288087]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[421.288348]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[421.291351]max_phys_off_afflvl = 0
+[ATF](2)[421.291406]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[421.291681]psci_cpu_off: call psci_power_down_wfi()
+[ATF](3)[421.294439]max_phys_off_afflvl = 0
+[ATF](3)[421.294492]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[421.294762]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[421.298749]mt_on_0, entry 0
+[ATF](0)[421.299835]mt_on_0, entry 0
+[ATF](0)[421.300821]mt_on_0, entry 0
+[ATF](3)[421.583174]max_phys_off_afflvl = 0
+[ATF](3)[421.583231]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[421.583493]psci_cpu_off: call psci_power_down_wfi()
+[ATF](1)[421.830180]max_phys_off_afflvl = 0
+[ATF](1)[421.830241]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[421.830512]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[421.833535]max_phys_off_afflvl = 0
+[ATF](2)[421.833589]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[421.833847]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[421.837888]mt_on_0, entry 0
+[ATF](0)[421.838982]mt_on_0, entry 0
+[ATF](0)[421.863446]mt_on_0, entry 0
+[ATF](3)[422.389568]max_phys_off_afflvl = 0
+[ATF](3)[422.389626]psciphys_off_afflvl = 0
+[ATF](3)[422.389817]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[422.492000]mt_on_0, entry 0
+[ATF](1)[423.72339]max_phys_off_afflvl = 0
+[ATF](1)[423.72395]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[423.72650]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[423.75587]max_phys_off_afflvl = 0
+[ATF](2)[423.75640]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[423.75899]psci_cpu_off: call psci_power_down_wfi()
+[ATF](3)[423.78576]max_phys_off_afflvl = 0
+[ATF](3)[423.78628]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[423.78894]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[423.83197]mt_on_0, entry 0
+[ATF](0)[423.84293]mt_on_0, entry 0
+[ATF](0)[423.85294]mt_on_0, entry 0
+[ATF](3)[423.397466]max_phys_off_afflvl = 0
+[ATF](3)[423.397521]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[423.397781]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[423.700216]mt_on_0, entry 0
+[ATF](1)[424.604468]max_phys_off_afflvl = 0
+[ATF](1)[424.604525]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[424.604784]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[424.607742]max_phys_off_afflvl = 0
+[ATF](2)[424.607797]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[424.608071]psci_cpu_off: call psci_power_down_wfi()
+[ATF](3)[424.610803]max_phys_off_afflvl = 0
+[ATF](3)[424.610856]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[424.611132]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[424.615063]mt_on_0, entry 0
+[ATF](0)[424.616156]mt_on_0, entry 0
+[ATF](0)[424.617140]mt_on_0, entry 0
+[ATF](3)[425.6335]max_phys_off_afflvl = 0
+[ATF](3)[425.6390]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[425.6643]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[425.508900]mt_on_0, entry 0
+[ATF](3)[426.512394]max_phys_off_afflvl = 0
+[ATF](3)[426.512449]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[426.512708]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[426.915061]mt_on_0, entry 0
+[ATF](1)[428.36481]max_phys_off_afflvl = 0
+[ATF](1)[428.36538]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[428.36805]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[428.39889]max_phys_off_afflvl = 0
+[ATF](2)[428.39944]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[428.40202]psci_cpu_off: call psci_power_down_wfi()
+[ATF](3)[428.43024]max_phys_off_afflvl = 0
+[ATF](3)[428.43076]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[428.43331]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[428.47272]mt_on_0, entry 0
+[ATF](0)[428.48373]mt_on_0, entry 0
+[ATF](0)[428.49372]mt_on_0, entry 0
+[ATF](3)[428.121553]max_phys_off_afflvl = 0
+[ATF](3)[428.121609]max_phys_off_aff: psci_do_pwrdown_cache_maintenance
+[ATF](3)[428.121868]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[428.223724]mt_on_0, entry 0
+[ATF](3)[429.727656]max_phys_off_afflvl = 0
+[ATF](3)[429.727711]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[429.727960]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[430.19316]mt_on_0, entry 0
+[ATF](3)[434.826247]max_phys_off_afflvl = 0
+[ATF](3)[434.826296]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[434.826247]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[435.228651]mt_on_0, entry 0
+[ATF](3)[437.732650]max_phys_off_afflvl = 0
+[ATF](3)[437.732694]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[437.732880]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[438.134744]mt_on_0, entry 0
+[ATF](3)[439.37430]max_phys_off_afflvl = 0
+[ATF](3)[439.37472]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[439.37656]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[439.139260]mt_on_0, entry 0
+[ATF](3)[440.442295]max_phys_off_afflvl = 0
+[ATF](3)[440.442335]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[440.442525]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[440.844353]mt_on_0, entry 0
+[ATF](3)[441.947290]max_phys_off_afflvl = 0
+[ATF](3)[441.947335]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[441.947558]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[442.49219]mt_on_0, entry 0
+[ATF](3)[443.452502]max_phys_off_afflvl = 0
+[ATF](3)[443.452552]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[443.452761]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[443.854801]mt_on_0, entry 0
+[ATF](3)[444.657485]max_phys_off_afflvl = 0
+[ATF](3)[444.657532]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[444.657725]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[444.859368]mt_on_0, entry 0
+[ATF](3)[445.962624]max_phys_off_afflvl = 0
+[ATF](3)[445.962681]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[445.962934]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[446.365161]mt_on_0, entry 0
+[ATF](3)[447.168377]max_phys_off_afflvl = 0
+[ATF](3)[447.168432]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[447.168696]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[447.470889]mt_on_0, entry 0
+[ATF](3)[448.774479]max_phys_off_afflvl = 0
+[ATF](3)[448.774522]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[448.774711]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[449.176504]mt_on_0, entry 0
+[ATF](3)[449.979155]max_phys_off_afflvl = 0
+[ATF](3)[449.979199]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[449.979395]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[450.180979]mt_on_0, entry 0
+[ATF](3)[451.184161]max_phys_off_afflvl = 0
+[ATF](3)[451.184218]max_phys_vl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[451.184482]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[451.586750]mt_on_0, entry 0
+[ATF](3)[452.689873]max_phys_off_afflvl = 0
+[ATF](3)[452.689917]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[452.690114]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[452.891885]mt_on_0, entry 0
+[ATF](3)[454.195065]max_phys_off_afflvl = 0
+[ATF](3)[454.195105]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[454.195292]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[454.597140]mt_on_0, entry 0
+[ATF](3)[455.399712]max_phys_off_afflvl = 0
+[ATF](3)[455.399754]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[455.399938]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[455.601528]mt_on_0, entry 0
+[ATF](3)[456.704375]max_phys_off_afflvl = 0
+[ATF](3)[456.704375]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[456.704629]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[457.306826]mt_on_0, entry 0
+[ATF](3)[458.509794]max_phys_off_afflvl = 0
+[ATF](3)[458.509837]psci_afflvl0_afflvl = 0
+[ATF](3)[458.509971]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[458.711788]mt_on_0, entry 0
+[ATF](3)[459.814762]max_phys_off_afflvl = 0
+[ATF](3)[459.814803]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[459.814992]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[460.56782]mt_on_0, entry 0
+[ATF](3)[461.259739]max_phys_off_afflvl = 0
+[ATF](3)[461.259781]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[461.259969]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[461.461610]mt_on_0, entry 0
+[ATF](3)[462.764613]max_phys_off_afflvl = 0
+[ATF](3)[462.764660]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[462.764865]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[463.66547]mt_on_0, entry 0
+[ATF](3)[465.571301]max_phys_off_afflvl = 0
+[ATF](3)[465.571355]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[465.571590]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[465.974013]mt_on_0, entry 0
+[ATF](3)[466.876842]max_phys_off_afflvl = 0
+[ATF](3)[466.876887]psci_afflvl0_offlvl = 0
+[ATF](3)[466.877018]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[467.78680]mt_on_0, entry 0
+[ATF](3)[468.81547]max_phys_off_afflvl = 0
+[ATF](3)[468.81588]psci_affloff_afflvl = 0
+[ATF](3)[468.81715]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[468.282957]mt_on_0, entry 0
+[ATF](3)[471.387953]max_phys_off_afflvl = 0
+[ATF](3)[471.387998]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[471.388194]psci_cps_off_afflvl = 0
+[ATF](0)[471.589919]mt_on_0, entry 0
+[ATF](3)[472.492653]max_phys_off_afflvl = 0
+[ATF](3)[472.492693]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[472.492882]psci_cpu_off_afflvl = 0
+[ATF](0)[472.694452]mt_on_0, entry 0
+[ATF](3)[474.197731]max_phys_off_afflvl = 0
+[ATF](3)[474.197780]psci_afflvl0_off: psci_do_pwrdoown_wfi()maintenance
+[ATF](3)[474.197987]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[474.399888]mt_on_0, entry 0
+[ATF](3)[476.904491]max_phys_off_afflvl = 0
+[ATF](3)[476.904491]psci_afflvl0_off: psci_do_pwrdown__wfi()maintenance
+[ATF](3)[476.904754]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[477.359318]mt_on_0, entry 0
+[ATF](3)[479.763828]max_phys_off_afflvl = 0
+[ATF](3)[479.763884]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[479.764121]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[480.266763]mt_on_0, entry 0
+[ATF](3)[481.69360]max_phys_off_afflvl = 0
+[ATF](3)[481.69400]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[481.69590]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[481.371393]mt_on_0, entry 0
+[ATF](3)[482.674442]max_phys_off_afflvl = 0
+[ATF](3)[482.674482]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[482.674668]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[482.976408]mt_on_0, entry 0
+[ATF](3)[485.582123]max_phys_off_afflvl = 0
+[ATF](3)[485.582203]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[485.582500]psci_cpu_off: call psci_power_down_wfi()
+[ATF](1)[485.986104]mt_on_0, entry 0
+[ATF](3)[490.191888]max_phys_off_afflvl = 0
+[ATF](3)[490.191932]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[490.192888]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[490.393852]mt_on_0, entry 0
+[ATF](3)[491.796950]max_phys_off_afflvl = 0
+[ATF](3)[491.796994]psciphys_off_afflvl = 0
+[ATF](3)[491.797123]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[491.998860]mt_on_0, entry 0
+[ATF](3)[494.903171]max_phys_off_afflvl = 0
+[ATF](3)[494.903217]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[494.903171]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[495.305273]mt_on_0, entry 0
+[ATF](3)[496.408405]max_phys_off_afflvl = 0
+[ATF](3)[496.408448]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[496.408639]psci_cpu_off: fflvl = 0
+[ATF](0)[496.510252]mt_on_0, entry 0
+[ATF](3)[497.513586]max_phys_off_afflvl = 0
+[ATF](3)[497.513631]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[497.513586]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[497.916106]mt_on_0, entry 0
+[ATF](3)[507.527210]max_phys_off_afflvl = 0
+[ATF](3)[507.527251]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[507.527444]psci_cpu_off: call psci_power_down_wfi()
+[ATF](1)[507.629058]mt_on_0, entry 0
+[ATF](3)[509.632768]max_phys_off_afflvl = 0
+[ATF](3)[509.632810]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[509.632998]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[510.34978]mt_on_0, entry 0
+[ATF](3)[510.837683]max_phys_off_afflvl = 0
+[ATF](3)[510.837725]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[510.837909]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[511.39608]mt_on_0, entry 0
+[ATF](3)[512.143148]max_phys_off_afflvl = 0
+[ATF](3)[512.143204]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[512.143470]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[512.546486]mt_on_0, entry 0
+[ATF](3)[513.550062]max_phys_off_afflvl = 0
+[ATF](3)[513.550118]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[513.550364]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[513.852600]mt_on_0, entry 0
+[ATF](3)[514.957662]max_phys_off_afflvl = 0
+[ATF](3)[514.957754]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[514.958130]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[515.462726]mt_on_0, entry 0
+[ATF](3)[518.68098]max_phys_off_afflvl = 0
+[ATF](3)[518.68140]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[518.68327]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[518.470341]mt_on_0, entry 0
+[ATF](3)[519.373167]max_phys_off_afflvl = 0
+[ATF](3)[519.373216]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[519.373418]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[519.475114]mt_on_0, entry 0
+[ATF](3)[520.578562]max_phys_off_afflvl = 0
+[ATF](3)[520.578626]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[520.578899]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[520.981320]mt_on_0, entry 0
+[ATF](3)[521.984892]max_phys_off_afflvl = 0
+[ATF](3)[521.984949]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[521.985201]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[522.187219]mt_on_0, entry 0
+[ATF](3)[523.291154]max_phys_off_afflvl = 0
+[ATF](3)[523.291212]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[523.291487]psci_cpu_off: call  = 0
+[ATF](0)[523.693884]mt_on_0, entry 0
+[ATF](3)[524.797750]max_phys_off_afflvl = 0
+[ATF](3)[524.797805]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[524.798069]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[525.257]mt_on_0, entry 0
+[ATF](3)[526.104475]max_phys_off_afflvl = 0
+[ATF](3)[526.104549]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[526.104834]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[526.507534]mt_on_0, entry 0
+[ATF](3)[528.715502]max_phys_off_afflvl = 0
+[ATF](3)[528.715582]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[528.715878]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[529.119849]mt_on_0, entry 0
+[ATF](3)[529.922508]max_phys_off_afflvl = 0
+[ATF](3)[529.922549]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[529.922732]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[530.124434]mt_on_0, entry 0
+[ATF](3)[535.531692]max_phys_off_afflvl = 0
+[ATF](3)[535.531734]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[535.531922]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[535.833933]mt_on_0, entry 0
+[ATF](3)[538.138733]max_phys_off_afflvl = 0
+[ATF](3)[538.138733]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[538.138990]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[538.440786]mt_on_0, entry 0
+[ATF](3)[540.945146]max_phys_off_afflvl = 0
+[ATF](3)[540.945192]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[540.945396]psci_cpu_off: call psci_power_down_wfi()
+[ATF](1)[541.347459]mt_on_0, entry 0
+[ATF](3)[542.150287]max_phys_off_afflvl = 0
+[ATF](3)[542.150287]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[542.150522]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[542.352206]mt_on_0, entry 0
+[ATF](3)[543.556105]max_phys_off_afflvl = 0
+[ATF](3)[543.556191]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[543.556466]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[543.959339]mt_on_0, entry 0
+[ATF](3)[544.862843]max_phys_off_afflvl = 0
+[ATF](3)[544.862904]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[544.863160]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[545.65324]mt_on_0, entry 0
+[ATF](3)[547.670881]max_phys_off_afflvl = 0
+[ATF](3)[547.670940]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[547.671204]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[547.873416]mt_on_0, entry 0
+[ATF](3)[548.878437]max_phys_off_afflvl = 0
+[ATF](3)[548.878526]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[548.878898]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[549.382639]mt_on_0, entry 0
+[ATF](3)[553.388747]max_phys_off_afflvl = 0
+[ATF](3)[553.388789]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[553.388972]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[553.690771]mt_on_0, entry 0
+[ATF](3)[556.595278]max_phys_off_afflvl = 0
+[ATF](3)[556.595325]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[556.595523]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[556.797276]mt_on_0, entry 0
+[ATF](3)[559.602551]max_phys_off_afflvl = 0
+[ATF](3)[559.602606]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[559.602875]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[560.5097]mt_on_0, entry 0
+[ATF](3)[562.609576]max_phys_off_afflvl = 0
+[ATF](3)[562.609620]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[562.609813]psci_cpu_off: call psci_power_down_wfi()
+[ATF](1)[562.911582]mt_on_0, entry 0
+[ATF](3)[565.215626]max_phys_off_afflvl = 0
+[ATF](3)[565.215684]max_physlvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[565.215956]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[565.618082]mt_on_0, entry 0
+[ATF](3)[570.324539]max_phys_off_afflvl = 0
+[ATF](3)[570.324577]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[570.324755]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[570.626573]mt_on_0, entry 0
+[ATF](3)[571.429311]max_phys_off_afflvl = 0
+[ATF](3)[571.429355]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[571.429544]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[571.631238]mt_on_0, entry 0
+[ATF](3)[572.634056]max_phys_off_afflvl = 0
+[ATF](3)[572.634102]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[572.634294]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[573.36024]mt_on_0, entry 0
+[ATF](3)[575.541594]max_phys_off_afflvl = 0
+[ATF](3)[575.541650]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[575.541911]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[576.144562]mt_on_0, entry 0
+[ATF](3)[577.148355]max_phys_off_afflvl = 0
+[ATF](3)[577.148414]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[577.148681]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[577.450899]mt_on_0, entry 0
+[ATF](1)[578.540367]max_phys_off_afflvl = 0
+[ATF](1)[578.540426]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[578.540700]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[578.543993]max_phys_off_afflvl = 0
+[ATF](2)[578.544048]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[578.544306]psci_cpu_off: call psci_power_down_wfi()
+[ATF](3)[578.547243]max_phys_off_afflvl = 0
+[ATF](3)[578.547294]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[578.547560]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[578.551828]mt_on_0, entry 0
+[ATF](0)[578.552988]mt_on_0, entry 0
+[ATF](0)[578.554020]mt_on_0, entry 0
+[ATF](3)[578.857303]max_phys_off_afflvl = 0
+[ATF](3)[578.857359]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[578.857605]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[579.360058]mt_on_0, entry 0
+[ATF](1)[579.801253]max_phys_off_afflvl = 0
+[ATF](1)[579.801310]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[579.801568]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[579.804681]max_phys_off_afflvl = 0
+[ATF](2)[579.804734]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[579.804997]psci_cpu_off: call psci_power_down_wfi()
+[ATF](3)[579.807933]max_phys_off_afflvl = 0
+[ATF](3)[579.807987]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[579.808261]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[579.812429]mt_on_0, entry 0
+[ATF](0)[579.813537]mt_on_0, entry 0
+[ATF](0)[579.814574]mt_on_0, entry 0
+[ATF](3)[580.266048]max_phys_off_afflvl = 0
+[ATF](3)[580.266109]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[580.266380]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[580.768966]mt_on_0, entry 0
+[ATF](1)[581.223444]max_phys_off_afflvl = 0
+[ATF](1)[581.223501]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[581.223764]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[581.226832]max_phys_off_afflvl = 0
+[ATF](2)[581.226887]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[581.227162]psci_cpu_off: call psci_power_down_wfi()
+[ATF](3)[581.229868]max_phys_off_afflvl = 0
+[ATF](3)[581.229922]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[581.230188]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[581.234007]mt_on_0, entry 0
+[ATF](0)[581.235113]mt_on_0, entry 0
+[ATF](0)[581.236139]mt_on_0, entry 0
+[ATF](3)[582.275495]max_phys_off_afflvl = 0
+[ATF](3)[582.275554]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[582.275814]psci_cpu_off: call psci_power_down_wfi()
+[ATF](1)[582.565430]max_phys_off_afflvl = 0
+[ATF](1)[582.565488]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[582.565765]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[582.568887]max_phys_off_afflvl = 0
+[ATF](2)[582.568940]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[582.569200]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[582.573736]mt_on_0, entry 0
+[ATF](0)[582.574850]mt_on_0, entry 0
+[ATF](0)[582.599760]mt_on_0, entry 0
+[ATF](3)[583.882858]max_phys_off_afflvl = 0
+[ATF](3)[583.882913]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[583.883157]psci_cpu_off: call psci_power_down_wfi()
+[ATF](1)[584.187688]max_phys_off_afflvl = 0
+[ATF](1)[584.187747]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[584.188022]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[584.191171]max_phys_off_afflvl = 0
+[ATF](2)[584.191225]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[584.191485]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[584.195740]mt_on_0, entry 0
+[ATF](0)[584.196861]mt_on_0, entry 0
+[ATF](2)[584.221746]mt_on_0, entry 0
+[ATF](1)[585.439904]max_phys_off_afflvl = 0
+[ATF](1)[585.439964]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[585.440235]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[585.443350]max_phys_off_afflvl = 0
+[ATF](2)[585.443403]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[585.443664]psci_cpu_off: call psci_power_down_wfi()
+[ATF](3)[585.446499]max_phys_off_afflvl = 0
+[ATF](3)[585.446551]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[585.446823]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[585.450941]mt_on_0, entry 0
+[ATF](0)[585.452042]mt_on_0, entry 0
+[ATF](0)[585.453037]mt_on_0, entry 0
+[ATF](3)[585.592587]max_phys_off_afflvl = 0
+[ATF](3)[585.592641]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[585.592901]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[586.295404]mt_on_0, entry 0
+[ATF](1)[586.922004]max_phys_off_afflvl = 0
+[ATF](1)[586.922061]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[586.922331]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[586.925417]max_phys_off_afflvl = 0
+[ATF](2)[586.925474]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[586.925753]psci_cpu_off: call psci_power_down_wfi()
+[ATF](3)[586.928613]max_phys_off_afflvl = 0
+[ATF](3)[586.928666]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[586.928937]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[586.933104]mt_on_0, entry 0
+[ATF](0)[586.934199]mt_on_0, entry 0
+[ATF](0)[586.935285]mt_on_0, entry 0
+[ATF](3)[587.201154]max_phys_off_afflvl = 0
+[ATF](3)[587.201208]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[587.201466]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[587.703967]mt_on_0, entry 0
+[ATF](1)[588.174048]max_phys_off_afflvl = 0
+[ATF](1)[588.174109]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[588.174387]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[588.177473]max_phys_off_afflvl = 0
+[ATF](2)[588.177526]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[588.177790]psci_cpu_off: call psci_power_down_wfi()
+[ATF](3)[588.180639]max_phys_off_afflvl = 0
+[ATF](3)[588.180691]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[588.180964]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[588.184754]mt_on_0, entry 0
+[ATF](0)[588.185858]mt_on_0, entry 0
+[ATF](0)[588.186899]mt_on_0, entry 0
+[ATF](3)[589.10653]max_phys_off_afflvl = 0
+[ATF](3)[589.10706]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[589.10962]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[589.513403]mt_on_0, entry 0
+[ATF](1)[590.526106]max_phys_off_afflvl = 0
+[ATF](1)[590.526164]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[590.526428]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[590.529542]max_phys_off_afflvl = 0
+[ATF](2)[590.529597]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[590.529880]psci_cpu_off: call psci_power_down_wfi()
+[ATF](3)[590.532826]max_phys_off_afflvl = 0
+[ATF](3)[590.532880]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[590.533156]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[590.537400]mt_on_0, entry 0
+[ATF](0)[590.538500]mt_on_0, entry 0
+[ATF](0)[590.539591]mt_on_0, entry 0
+[ATF](3)[590.619305]max_phys_off_afflvl = 0
+[ATF](3)[590.619361]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[590.619630]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[591.21786]mt_on_0, entry 0
+[ATF](1)[591.788194]max_phys_off_afflvl = 0
+[ATF](1)[591.788254]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[591.788537]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[591.791630]max_phys_off_afflvl = 0
+[ATF](2)[591.791683]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[591.791950]psci_cpu_off: call psci_power_down_wfi()
+[ATF](3)[591.794640]max_phys_off_afflvl = 0
+[ATF](3)[591.794691]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[591.794954]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[591.798887]mt_on_0, entry 0
+[ATF](0)[591.800001]mt_on_0, entry 0
+[ATF](0)[591.801019]mt_on_0, entry 0
+[ATF](1)[592.210423]max_phys_off_afflvl = 0
+[ATF](1)[592.210480]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[592.210751]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[592.213758]max_phys_off_afflvl = 0
+[ATF](2)[592.213814]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[592.214099]psci_cpu_off: call psci_power_down_wfi()
+[ATF](3)[592.216731]max_phys_off_afflvl = 0
+[ATF](3)[592.216786]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[592.217067]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[592.221234]mt_on_0, entry 0
+[ATF](0)[592.222344]mt_on_0, entry 0
+[ATF](0)[592.223360]mt_on_0, entry 0
+[ATF](3)[592.330315]max_phys_off_afflvl = 0
+[ATF](3)[592.330375]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[592.330651]psci_cpu_off: call psci_power_down_wfi()
+[ATF](1)[592.562551]max_phys_off_afflvl = 0
+[ATF](1)[592.562612]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[592.562897]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[592.565694]max_phys_off_afflvl = 0
+[ATF](2)[592.565749]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[592.566022]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[592.570103]mt_on_0, entry 0
+[ATF](0)[592.571214]mt_on_0, entry 0
+[ATF](1)[592.596055]mt_on_0, entry 0
+[ATF](3)[593.136677]max_phys_off_afflvl = 0
+[ATF](3)[593.136738]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[593.137008]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[593.239182]mt_on_0, entry 0
+[ATF](1)[593.814638]max_phys_off_afflvl = 0
+[ATF](1)[593.814696]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[593.814963]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[593.818071]max_phys_off_afflvl = 0
+[ATF](2)[593.818125]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[593.818400]psci_cpu_off: call psci_power_down_wfi()
+[ATF](3)[593.821070]max_phys_off_afflvl = 0
+[ATF](3)[593.821122]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[593.821403]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[593.825569]mt_on_0, entry 0
+[ATF](0)[593.826700]mt_on_0, entry 0
+[ATF](0)[593.827736]mt_on_0, entry 0
+[ATF](3)[594.144640]max_phys_off_afflvl = 0
+[ATF](3)[594.144694]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[594.144956]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[594.547494]mt_on_0, entry 0
+[ATF](3)[595.751603]max_phys_off_afflvl = 0
+[ATF](3)[595.751662]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[595.751931]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[596.254433]mt_on_0, entry 0
+[ATF](1)[596.416718]max_phys_off_afflvl = 0
+[ATF](1)[596.416775]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[596.417050]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[596.420259]max_phys_off_afflvl = 0
+[ATF](2)[596.420315]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[596.420593]psci_cpu_off: call psci_power_down_wfi()
+[ATF](3)[596.423469]max_phys_off_afflvl = 0
+[ATF](3)[596.423522]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[596.423786]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[596.427578]mt_on_0, entry 0
+[ATF](0)[596.428683]mt_on_0, entry 0
+[ATF](0)[596.429714]mt_on_0, entry 0
+[ATF](1)[596.818830]max_phys_off_afflvl = 0
+[ATF](1)[596.818887]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[596.819153]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[596.822023]max_phys_off_afflvl = 0
+[ATF](2)[596.822077]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[596.822354]psci_cpu_off: call psci_power_down_wfi()
+[ATF](3)[596.824968]max_phys_off_afflvl = 0
+[ATF](3)[596.825020]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[596.825300]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[596.829468]mt_on_0, entry 0
+[ATF](0)[596.830584]mt_on_0, entry 0
+[ATF](0)[596.831628]mt_on_0, entry 0
+[ATF](3)[597.62021]max_phys_off_afflvl = 0
+[ATF](3)[597.62079]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[597.62350]psci_cpu_off: call psci_power_down_wfi()
+[ATF](1)[597.180834]max_phys_off_afflvl = 0
+[ATF](1)[597.180891]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[597.181170]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[597.184021]max_phys_off_afflvl = 0
+[ATF](2)[597.184078]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[597.184357]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[597.188515]mt_on_0, entry 0
+[ATF](0)[597.189627]mt_on_0, entry 0
+[ATF](2)[597.214601]mt_on_0, entry 0
+[ATF](3)[597.868407]max_phys_off_afflvl = 0
+[ATF](3)[597.868463]psc_phys_off_afflvl = 0
+[ATF](3)[597.868636]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[597.970863]mt_on_0, entry 0
+[ATF](1)[598.433044]max_phys_off_afflvl = 0
+[ATF](1)[598.433102]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[598.433365]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[598.436408]max_phys_off_afflvl = 0
+[ATF](2)[598.436460]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[598.436720]psci_cpu_off: call psci_power_down_wfi()
+[ATF](3)[598.439449]max_phys_off_afflvl = 0
+[ATF](3)[598.439499]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[598.439762]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[598.443563]mt_on_0, entry 0
+[ATF](0)[598.444666]mt_on_0, entry 0
+[ATF](0)[598.445692]mt_on_0, entry 0
+[ATF](3)[599.177750]max_phys_off_afflvl = 0
+[ATF](3)[599.177806]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[599.178062]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[599.780698]mt_on_0, entry 0
+[ATF](1)[599.905065]max_phys_off_afflvl = 0
+[ATF](1)[599.905121]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[599.905382]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[599.908460]max_phys_off_afflvl = 0
+[ATF](2)[599.908515]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[599.908794]psci_cpu_off: call psci_power_down_wfi()
+[ATF](3)[599.911763]max_phys_off_afflvl = 0
+[ATF](3)[599.911816]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[599.912080]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[599.915965]mt_on_0, entry 0
+[ATF](0)[599.917089]mt_on_0, entry 0
+[ATF](0)[599.918098]mt_on_0, entry 0
+[ATF](3)[600.886940]max_phys_off_afflvl = 0
+[ATF](3)[600.886996]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[600.887251]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[601.189406]mt_on_0, entry 0
+[ATF](1)[601.317239]max_phys_off_afflvl = 0
+[ATF](1)[601.317298]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[601.317573]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[601.320751]max_phys_off_afflvl = 0
+[ATF](2)[601.320805]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[601.321066]psci_cpu_off: call psci_power_down_wfi()
+[ATF](3)[601.323780]max_phys_off_afflvl = 0
+[ATF](3)[601.323832]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[601.324091]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[601.327900]mt_on_0, entry 0
+[ATF](0)[601.329004]mt_on_0, entry 0
+[ATF](0)[601.330016]mt_on_0, entry 0
+[ATF](3)[608.198929]max_phys_off_afflvl = 0
+[ATF](3)[608.198987]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[608.199242]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[608.202178]max_phys_off_afflvl = 0
+[ATF](2)[608.202231]pax_phys_off_afflvl = 0
+[ATF](2)[608.202399]psci_cpu_off: call psci_power_down_wfi()
+[ATF](1)[608.205093]max_phys_off_afflvl = 0
+[ATF](1)[608.205144]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[608.205392]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[608.307443]mt_on_0, entry 0
+[ATF](0)[608.408886]mt_on_0, entry 0
+[ATF](0)[608.410166]mt_on_0, entry 0
+[ATF](3)[609.513881]max_phys_off_afflvl = 0
+[ATF](3)[609.513942]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[609.514198]psci_cpu_off: call psci_power_down_wfi()
+[ATF](1)[609.780612]max_phys_off_afflvl = 0
+[ATF](1)[609.780671]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[609.780932]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[609.783855]max_phys_off_afflvl = 0
+[ATF](2)[609.783908]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[609.784170]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[609.788530]mt_on_0, entry 0
+[ATF](0)[609.789638]mt_on_0, entry 0
+[ATF](0)[609.814530]mt_on_0, entry 0
+[ATF](3)[611.122517]max_phys_off_afflvl = 0
+[ATF](3)[611.122562]psci_afflvl0_off: psci0
+[ATF](3)[611.122697]psci_cpu_off: call psci_power_down_wfi()
+[ATF](1)[611.241583]max_phys_off_afflvl = 0
+[ATF](1)[611.241642]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[611.241903]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[611.244889]max_phys_off_afflvl = 0
+[ATF](2)[611.244942]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[611.245202]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[611.249530]mt_on_0, entry 0
+[ATF](0)[611.250644]mt_on_0, entry 0
+[ATF](0)[611.275465]mt_on_0, entry 0
+[ATF](1)[612.694484]max_phys_off_afflvl = 0
+[ATF](1)[612.694544]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[612.694810]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[612.697797]max_phys_off_afflvl = 0
+[ATF](2)[612.697851]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[612.698111]psci_cpu_off: call psci_power_down_wfi()
+[ATF](3)[612.700868]max_phys_off_afflvl = 0
+[ATF](3)[612.700919]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[612.701180]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[612.705542]mt_on_0, entry 0
+[ATF](0)[612.706652]mt_on_0, entry 0
+[ATF](0)[612.707758]mt_on_0, entry 0
+[ATF](1)[613.936033]max_phys_off_afflvl = 0
+[ATF](1)[613.936091]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](1)[613.936358]psci_cpu_off: call psci_power_down_wfi()
+[ATF](2)[613.939398]max_phys_off_afflvl = 0
+[ATF](2)[613.939454]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](2)[613.939721]psci_cpu_off: call psci_power_down_wfi()
+[ATF](3)[613.942388]max_phys_off_afflvl = 0
+[ATF](3)[613.942441]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[613.942705]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[613.946703]mt_on_0, entry 0
+[ATF](0)[613.947815]mt_on_0, entry 0
+[ATF](0)[613.948831]mt_on_0, entry 0
+[ATF](3)[616.36898]max_phys_off_afflvl = 0
+[ATF](3)[616.36942]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[616.37133]psci_cpu_off: call psci_power_down_wfi()
+[ATF](1)[616.59988]mt_on_0, entry 0
+[ATF](3)[617.765066]max_phys_off_afflvl = 0
+[ATF](3)[617.765111]psci_afflvl0_off: psci_do_pwrdown_cache_maintenance
+[ATF](3)[617.765308]psci_cpu_off: call psci_power_down_wfi()
+[ATF](0)[618.167091]mt_on_0, entry 0
